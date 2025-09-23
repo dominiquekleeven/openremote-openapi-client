@@ -51,7 +51,7 @@ api_instance = RuleApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_ruleset = openremote_openapi_client.AssetRuleset() # AssetRuleset |  (optional)
+asset_ruleset = AssetRuleset() # AssetRuleset |  (optional)
 
 try:
     # Create an asset ruleset
@@ -123,7 +123,7 @@ api_instance = RuleApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-global_ruleset = openremote_openapi_client.GlobalRuleset() # GlobalRuleset |  (optional)
+global_ruleset = GlobalRuleset() # GlobalRuleset |  (optional)
 
 try:
     # Create a global ruleset
@@ -195,7 +195,7 @@ api_instance = RuleApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm_ruleset = openremote_openapi_client.RealmRuleset() # RealmRuleset |  (optional)
+realm_ruleset = RealmRuleset() # RealmRuleset |  (optional)
 
 try:
     # Create a realm ruleset
@@ -1203,7 +1203,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_ruleset = openremote_openapi_client.AssetRuleset() # AssetRuleset |  (optional)
+asset_ruleset = AssetRuleset() # AssetRuleset |  (optional)
 
 try:
     # Update an asset ruleset
@@ -1275,7 +1275,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-global_ruleset = openremote_openapi_client.GlobalRuleset() # GlobalRuleset |  (optional)
+global_ruleset = GlobalRuleset() # GlobalRuleset |  (optional)
 
 try:
     # Update a global ruleset
@@ -1347,7 +1347,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm_ruleset = openremote_openapi_client.RealmRuleset() # RealmRuleset |  (optional)
+realm_ruleset = RealmRuleset() # RealmRuleset |  (optional)
 
 try:
     # Update a realm ruleset

@@ -57,7 +57,7 @@ realm = 'realm_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user = openremote_openapi_client.User() # User |  (optional)
+user = User() # User |  (optional)
 
 try:
     # Create a new user in a realm
@@ -853,7 +853,7 @@ api_instance = UserApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user_query = openremote_openapi_client.UserQuery() # UserQuery |  (optional)
+user_query = UserQuery() # UserQuery |  (optional)
 
 try:
     # Query users based on criteria
@@ -1279,7 +1279,7 @@ api_instance = UserApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-credential = openremote_openapi_client.Credential() # Credential |  (optional)
+credential = Credential() # Credential |  (optional)
 
 try:
     # Update the password for the currently authenticated user
@@ -1351,7 +1351,7 @@ user_id = 'user_id_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-credential = openremote_openapi_client.Credential() # Credential |  (optional)
+credential = Credential() # Credential |  (optional)
 
 try:
     # Update the password for a user in a realm
@@ -1495,7 +1495,7 @@ api_instance = UserApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user = openremote_openapi_client.User() # User |  (optional)
+user = User() # User |  (optional)
 
 try:
     # Update the currently authenticated user
@@ -1568,7 +1568,7 @@ realm = 'realm_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user = openremote_openapi_client.User() # User |  (optional)
+user = User() # User |  (optional)
 
 try:
     # Update a user in a realm

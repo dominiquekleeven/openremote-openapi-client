@@ -19,7 +19,7 @@ client = OpenRemoteApiClient(
 # Create an instance of the API class
 api_instance = {{{classname}}}(client)
 {{#allParams}}
-{{paramName}} = {{{example}}} # {{{dataType}}} | {{{description}}}{{^required}} (optional){{/required}}{{#defaultValue}} (default to {{{.}}}){{/defaultValue}}
+{{paramName}} = {{#example}}{{#isModel}}{{{dataType}}}(){{/isModel}}{{^isModel}}{{{example}}}{{/isModel}}{{/example}} # {{{dataType}}} | {{{description}}}{{^required}} (optional){{/required}}{{#defaultValue}} (default to {{{.}}}){{/defaultValue}}
 {{/allParams}}
 
 try:

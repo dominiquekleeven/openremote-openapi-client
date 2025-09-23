@@ -376,7 +376,7 @@ api_instance = MapApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-map_config = openremote_openapi_client.MapConfig() # MapConfig |  (optional)
+map_config = MapConfig() # MapConfig |  (optional)
 
 try:
     # Update map settings

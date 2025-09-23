@@ -254,7 +254,7 @@ api_instance = SyslogApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-syslog_config = openremote_openapi_client.SyslogConfig() # SyslogConfig |  (optional)
+syslog_config = SyslogConfig() # SyslogConfig |  (optional)
 
 try:
     # Update the syslog configuration

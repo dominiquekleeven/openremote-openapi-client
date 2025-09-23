@@ -50,7 +50,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_object = openremote_openapi_client.AssetObject() # AssetObject |  (optional)
+asset_object = AssetObject() # AssetObject |  (optional)
 
 try:
     # Create an asset
@@ -835,7 +835,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_query = openremote_openapi_client.AssetQuery() # AssetQuery |  (optional)
+asset_query = AssetQuery() # AssetQuery |  (optional)
 
 try:
     # Retrieve assets using a query
@@ -908,7 +908,7 @@ asset_id = 'asset_id_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_object = openremote_openapi_client.AssetObject() # AssetObject |  (optional)
+asset_object = AssetObject() # AssetObject |  (optional)
 
 try:
     # Update an asset

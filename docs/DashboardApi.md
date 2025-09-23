@@ -38,7 +38,7 @@ api_instance = DashboardApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-dashboard = openremote_openapi_client.Dashboard() # Dashboard |  (optional)
+dashboard = Dashboard() # Dashboard |  (optional)
 
 try:
     # Create a dashboard
@@ -328,7 +328,7 @@ api_instance = DashboardApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-dashboard_query = openremote_openapi_client.DashboardQuery() # DashboardQuery |  (optional)
+dashboard_query = DashboardQuery() # DashboardQuery |  (optional)
 
 try:
     # Retrieve dashboards using a query
@@ -400,7 +400,7 @@ api_instance = DashboardApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-dashboard = openremote_openapi_client.Dashboard() # Dashboard |  (optional)
+dashboard = Dashboard() # Dashboard |  (optional)
 
 try:
     # Update a dashboard

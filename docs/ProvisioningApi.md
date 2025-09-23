@@ -33,7 +33,7 @@ client = OpenRemoteApiClient(
 
 # Create an instance of the API class
 api_instance = ProvisioningApi(client)
-provisioning_config_object_object = openremote_openapi_client.ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
+provisioning_config_object_object = ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
 
 try:
     # Create a provisioning configuration
@@ -234,7 +234,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-provisioning_config_object_object = openremote_openapi_client.ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
+provisioning_config_object_object = ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
 
 try:
     # Update a provisioning configuration

@@ -179,7 +179,7 @@ attribute_name = 'attribute_name_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_datapoint_query = openremote_openapi_client.AssetDatapointQuery() # AssetDatapointQuery |  (optional)
+asset_datapoint_query = AssetDatapointQuery() # AssetDatapointQuery |  (optional)
 
 try:
     # Retrieve the historical datapoints of an asset attribute

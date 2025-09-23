@@ -38,7 +38,7 @@ api_instance = RealmApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm = openremote_openapi_client.Realm() # Realm |  (optional)
+realm = Realm() # Realm |  (optional)
 
 try:
     # Create a new realm
@@ -390,7 +390,7 @@ name = 'name_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm = openremote_openapi_client.Realm() # Realm |  (optional)
+realm = Realm() # Realm |  (optional)
 
 try:
     # Update a realm

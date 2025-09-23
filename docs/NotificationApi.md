@@ -416,7 +416,7 @@ api_instance = NotificationApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-notification = openremote_openapi_client.Notification() # Notification |  (optional)
+notification = Notification() # Notification |  (optional)
 
 try:
     # Send a notification to one or more targets

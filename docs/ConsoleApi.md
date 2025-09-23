@@ -30,7 +30,7 @@ client = OpenRemoteApiClient(
 
 # Create an instance of the API class
 api_instance = ConsoleApi(client)
-console_registration = openremote_openapi_client.ConsoleRegistration() # ConsoleRegistration | 
+console_registration = ConsoleRegistration() # ConsoleRegistration | 
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)

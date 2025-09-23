@@ -112,7 +112,7 @@ authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
 realm = 'realm_example' # str |  (optional)
-file_info = openremote_openapi_client.FileInfo() # FileInfo |  (optional)
+file_info = FileInfo() # FileInfo |  (optional)
 
 try:
     # Do protocol asset import

@@ -619,7 +619,7 @@ realm = 'realm_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-gateway_connection = openremote_openapi_client.GatewayConnection() # GatewayConnection |  (optional)
+gateway_connection = GatewayConnection() # GatewayConnection |  (optional)
 
 try:
     # Update the gateway connection of a realm
@@ -687,7 +687,7 @@ client = OpenRemoteApiClient(
 
 # Create an instance of the API class
 api_instance = GatewayApi(client)
-gateway_tunnel_info = openremote_openapi_client.GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
+gateway_tunnel_info = GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
 
 try:
     # Start a tunnel for a gateway
@@ -753,7 +753,7 @@ client = OpenRemoteApiClient(
 
 # Create an instance of the API class
 api_instance = GatewayApi(client)
-gateway_tunnel_info = openremote_openapi_client.GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
+gateway_tunnel_info = GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
 
 try:
     # Stop a tunnel for a gateway
