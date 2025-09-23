@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.attribute_object_meta import AttributeObjectMeta
+from openremote_openapi_client.models.attribute_object_meta import AttributeObjectMeta
 
 # TODO update the JSON string below
 json = "{}"

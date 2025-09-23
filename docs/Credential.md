@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.credential import Credential
+from openremote_openapi_client.models.credential import Credential
 
 # TODO update the JSON string below
 json = "{}"

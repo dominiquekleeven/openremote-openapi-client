@@ -1,4 +1,4 @@
-# or_rest_client.RealmApi
+# openremote_openapi_client.RealmApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -19,9 +19,9 @@ Create a new realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RealmApi
-from or_rest_client.models.realm import Realm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client.models.realm import Realm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -38,7 +38,7 @@ api_instance = RealmApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm = or_rest_client.Realm() # Realm |  (optional)
+realm = openremote_openapi_client.Realm() # Realm |  (optional)
 
 try:
     # Create a new realm
@@ -89,8 +89,8 @@ Delete a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RealmApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -158,9 +158,9 @@ Retrieve accessible realms for the authenticated user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RealmApi
-from or_rest_client.models.realm import Realm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client.models.realm import Realm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -228,9 +228,9 @@ Retrieve all realms
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RealmApi
-from or_rest_client.models.realm import Realm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client.models.realm import Realm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -298,9 +298,9 @@ Retrieve details about the currently authenticated and active realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RealmApi
-from or_rest_client.models.realm import Realm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client.models.realm import Realm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -370,9 +370,9 @@ Update a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RealmApi
-from or_rest_client.models.realm import Realm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client.models.realm import Realm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -390,7 +390,7 @@ name = 'name_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm = or_rest_client.Realm() # Realm |  (optional)
+realm = openremote_openapi_client.Realm() # Realm |  (optional)
 
 try:
     # Update a realm

@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.future import Future
+from openremote_openapi_client.models.future import Future
 
 # TODO update the JSON string below
 json = "{}"

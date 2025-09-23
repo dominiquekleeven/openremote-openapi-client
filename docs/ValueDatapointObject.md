@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.value_datapoint_object import ValueDatapointObject
+from openremote_openapi_client.models.value_datapoint_object import ValueDatapointObject
 
 # TODO update the JSON string below
 json = "{}"

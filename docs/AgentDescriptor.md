@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.agent_descriptor import AgentDescriptor
+from openremote_openapi_client.models.agent_descriptor import AgentDescriptor
 
 # TODO update the JSON string below
 json = "{}"

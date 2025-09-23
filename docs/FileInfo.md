@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.file_info import FileInfo
+from openremote_openapi_client.models.file_info import FileInfo
 
 # TODO update the JSON string below
 json = "{}"

@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.agent_object_object_object import AgentObjectObjectObject
+from openremote_openapi_client.models.agent_object_object_object import AgentObjectObjectObject
 
 # TODO update the JSON string below
 json = "{}"

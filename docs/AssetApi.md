@@ -1,4 +1,4 @@
-# or_rest_client.AssetApi
+# openremote_openapi_client.AssetApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -31,9 +31,9 @@ Create an asset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.asset_object import AssetObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.asset_object import AssetObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -50,7 +50,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_object = or_rest_client.AssetObject() # AssetObject |  (optional)
+asset_object = openremote_openapi_client.AssetObject() # AssetObject |  (optional)
 
 try:
     # Create an asset
@@ -103,9 +103,9 @@ Create links between users and assets
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.user_asset_link import UserAssetLink
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.user_asset_link import UserAssetLink
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -122,7 +122,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user_asset_link = [or_rest_client.UserAssetLink()] # List[UserAssetLink] |  (optional)
+user_asset_link = [openremote_openapi_client.UserAssetLink()] # List[UserAssetLink] |  (optional)
 
 try:
     # Create links between users and assets
@@ -173,8 +173,8 @@ Delete all user asset links
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -244,8 +244,8 @@ Delete assets
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -313,8 +313,8 @@ Delete the parent of assets
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -382,8 +382,8 @@ Delete a link between an asset and user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -455,9 +455,9 @@ Delete user asset links
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.user_asset_link import UserAssetLink
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.user_asset_link import UserAssetLink
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -474,7 +474,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user_asset_link = [or_rest_client.UserAssetLink()] # List[UserAssetLink] |  (optional)
+user_asset_link = [openremote_openapi_client.UserAssetLink()] # List[UserAssetLink] |  (optional)
 
 try:
     # Delete user asset links
@@ -525,9 +525,9 @@ Retrieve an asset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.asset_object import AssetObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.asset_object import AssetObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -597,9 +597,9 @@ Retrieve the linked assets of the currently authenticated user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.asset_object import AssetObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.asset_object import AssetObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -667,9 +667,9 @@ Retrieve a partially loaded asset (no attributes or path)
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.asset_object import AssetObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.asset_object import AssetObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -739,9 +739,9 @@ Retrieve links between assets and users
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.user_asset_link import UserAssetLink
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.user_asset_link import UserAssetLink
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -815,10 +815,10 @@ Retrieve assets using a query
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.asset_object import AssetObject
-from or_rest_client.models.asset_query import AssetQuery
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.asset_object import AssetObject
+from openremote_openapi_client.models.asset_query import AssetQuery
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -835,7 +835,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_query = or_rest_client.AssetQuery() # AssetQuery |  (optional)
+asset_query = openremote_openapi_client.AssetQuery() # AssetQuery |  (optional)
 
 try:
     # Retrieve assets using a query
@@ -888,9 +888,9 @@ Update an asset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.asset_object import AssetObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.asset_object import AssetObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -908,7 +908,7 @@ asset_id = 'asset_id_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_object = or_rest_client.AssetObject() # AssetObject |  (optional)
+asset_object = openremote_openapi_client.AssetObject() # AssetObject |  (optional)
 
 try:
     # Update an asset
@@ -962,8 +962,8 @@ Update the parent of assets
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1033,10 +1033,10 @@ Update attribute values with timestamps
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.attribute_event import AttributeEvent
-from or_rest_client.models.attribute_write_result import AttributeWriteResult
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.attribute_event import AttributeEvent
+from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1053,7 +1053,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-attribute_event = [or_rest_client.AttributeEvent()] # List[AttributeEvent] |  (optional)
+attribute_event = [openremote_openapi_client.AttributeEvent()] # List[AttributeEvent] |  (optional)
 
 try:
     # Update attribute values with timestamps
@@ -1106,9 +1106,9 @@ Write to a single attribute
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.attribute_write_result import AttributeWriteResult
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1182,9 +1182,9 @@ Write to a single attribute with a timestamp
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.attribute_write_result import AttributeWriteResult
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1260,10 +1260,10 @@ Update attribute values
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetApi
-from or_rest_client.models.attribute_state import AttributeState
-from or_rest_client.models.attribute_write_result import AttributeWriteResult
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client.models.attribute_state import AttributeState
+from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1280,7 +1280,7 @@ api_instance = AssetApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-attribute_state = [or_rest_client.AttributeState()] # List[AttributeState] |  (optional)
+attribute_state = [openremote_openapi_client.AttributeState()] # List[AttributeState] |  (optional)
 
 try:
     # Update attribute values

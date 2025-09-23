@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.pattern import Pattern
+from openremote_openapi_client.models.pattern import Pattern
 
 # TODO update the JSON string below
 json = "{}"

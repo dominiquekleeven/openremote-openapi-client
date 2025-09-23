@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.username_password import UsernamePassword
+from openremote_openapi_client.models.username_password import UsernamePassword
 
 # TODO update the JSON string below
 json = "{}"

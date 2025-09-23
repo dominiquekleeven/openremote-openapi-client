@@ -1,13 +1,13 @@
 [project]
-name = "or-rest-client"
+name = "openremote-openapi-client"
 version = "0.1.0"
-description = "OpenRemote Manager REST API"
+description = "OpenRemote OpenAPI Client"
 authors = [
-  {name = "OpenAPI Generator Community",email = "info@openremote.io"},
+  {name = "OpenAPI Generator Community",email = "example@example.com"},
 ]
 license = "AGPL-3.0"
 readme = "README.md"
-keywords = ["OpenAPI", "OpenAPI-Generator", "OpenRemote Manager REST API"]
+keywords = ["OpenAPI", "OpenAPI-Generator", "OpenRemote OpenAPI Client", "OpenRemote", "HTTP REST API"]
 requires-python = ">=3.9"
 
 dependencies = [
@@ -38,7 +38,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["or_rest_client*"]
+include = ["openremote_openapi_client*"]
 exclude = ["templates*", "extensions*", "examples*", "test*", "docs*"]
 
 [tool.pylint.'MESSAGES CONTROL']
@@ -46,7 +46,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.mypy]
 files = [
-  "or_rest_client",
+  "openremote_openapi_client",
   #"test",  # auto-generated tests
   "tests", # hand-written tests
 ]
@@ -84,7 +84,7 @@ disallow_any_generics = true
 
 [[tool.mypy.overrides]]
 module = [
-  "or_rest_client.configuration",
+  "openremote_openapi_client.configuration",
 ]
 warn_unused_ignores = true
 strict_equality = true

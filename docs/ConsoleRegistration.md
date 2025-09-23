@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.console_registration import ConsoleRegistration
+from openremote_openapi_client.models.console_registration import ConsoleRegistration
 
 # TODO update the JSON string below
 json = "{}"

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.node_position import NodePosition
+from openremote_openapi_client.models.node_position import NodePosition
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# or_rest_client.ProvisioningApi
+# openremote_openapi_client.ProvisioningApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -17,9 +17,9 @@ Create a provisioning configuration
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ProvisioningApi
-from or_rest_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -33,7 +33,7 @@ client = AuthenticatedApiClient(
 
 # Create an instance of the API class
 api_instance = ProvisioningApi(client)
-provisioning_config_object_object = or_rest_client.ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
+provisioning_config_object_object = openremote_openapi_client.ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
 
 try:
     # Create a provisioning configuration
@@ -83,8 +83,8 @@ Delete a provisioning configuration
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ProvisioningApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -152,9 +152,9 @@ Retrieve all provisioning configurations
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ProvisioningApi
-from or_rest_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -214,9 +214,9 @@ Update a provisioning configuration
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ProvisioningApi
-from or_rest_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -234,7 +234,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-provisioning_config_object_object = or_rest_client.ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
+provisioning_config_object_object = openremote_openapi_client.ProvisioningConfigObjectObject() # ProvisioningConfigObjectObject |  (optional)
 
 try:
     # Update a provisioning configuration

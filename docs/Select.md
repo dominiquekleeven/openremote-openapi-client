@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.select import Select
+from openremote_openapi_client.models.select import Select
 
 # TODO update the JSON string below
 json = "{}"

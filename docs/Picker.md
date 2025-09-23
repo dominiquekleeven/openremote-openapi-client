@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.picker import Picker
+from openremote_openapi_client.models.picker import Picker
 
 # TODO update the JSON string below
 json = "{}"

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.min import Min
+from openremote_openapi_client.models.min import Min
 
 # TODO update the JSON string below
 json = "{}"

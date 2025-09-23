@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.calendar_event_predicate import CalendarEventPredicate
+from openremote_openapi_client.models.calendar_event_predicate import CalendarEventPredicate
 
 # TODO update the JSON string below
 json = "{}"

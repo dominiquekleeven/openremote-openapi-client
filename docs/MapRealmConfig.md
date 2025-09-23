@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.map_realm_config import MapRealmConfig
+from openremote_openapi_client.models.map_realm_config import MapRealmConfig
 
 # TODO update the JSON string below
 json = "{}"

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.user_asset_link import UserAssetLink
+from openremote_openapi_client.models.user_asset_link import UserAssetLink
 
 # TODO update the JSON string below
 json = "{}"

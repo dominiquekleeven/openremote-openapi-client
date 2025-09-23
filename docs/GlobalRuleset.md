@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.global_ruleset import GlobalRuleset
+from openremote_openapi_client.models.global_ruleset import GlobalRuleset
 
 # TODO update the JSON string below
 json = "{}"

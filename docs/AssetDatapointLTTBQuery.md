@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.asset_datapoint_lttb_query import AssetDatapointLTTBQuery
+from openremote_openapi_client.models.asset_datapoint_lttb_query import AssetDatapointLTTBQuery
 
 # TODO update the JSON string below
 json = "{}"

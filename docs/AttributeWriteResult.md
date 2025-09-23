@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.attribute_write_result import AttributeWriteResult
+from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
 
 # TODO update the JSON string below
 json = "{}"

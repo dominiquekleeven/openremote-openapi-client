@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.attribute_descriptor_object import AttributeDescriptorObject
+from openremote_openapi_client.models.attribute_descriptor_object import AttributeDescriptorObject
 
 # TODO update the JSON string below
 json = "{}"

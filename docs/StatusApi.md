@@ -1,4 +1,4 @@
-# or_rest_client.StatusApi
+# openremote_openapi_client.StatusApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -15,8 +15,8 @@ Retrieve the health status of the system
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, StatusApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, StatusApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -76,8 +76,8 @@ Retrieve the system information
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, StatusApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, StatusApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

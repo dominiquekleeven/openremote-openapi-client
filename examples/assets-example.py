@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 
-from or_rest_client import AuthenticatedApiClient, AssetApi, AssetQuery
+from openremote_openapi_client import AuthenticatedApiClient, AssetApi, AssetQuery
 
 
 def main():

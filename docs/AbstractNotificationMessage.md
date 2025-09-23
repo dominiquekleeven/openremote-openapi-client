@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.abstract_notification_message import AbstractNotificationMessage
+from openremote_openapi_client.models.abstract_notification_message import AbstractNotificationMessage
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# or_rest_client.UIAppsApi
+# openremote_openapi_client.UIAppsApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -16,8 +16,8 @@ Retrieve the info of the available applications
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UIAppsApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UIAppsApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -83,8 +83,8 @@ Retrieve a list of the available applications
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UIAppsApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UIAppsApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -152,8 +152,8 @@ Retrieve the console configuration
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UIAppsApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UIAppsApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

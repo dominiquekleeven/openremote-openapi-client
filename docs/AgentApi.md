@@ -1,4 +1,4 @@
-# or_rest_client.AgentApi
+# openremote_openapi_client.AgentApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -16,9 +16,9 @@ Do protocol asset discovery
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AgentApi
-from or_rest_client.models.asset_tree_node import AssetTreeNode
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AgentApi
+from openremote_openapi_client.models.asset_tree_node import AssetTreeNode
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -90,10 +90,10 @@ Do protocol asset import
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AgentApi
-from or_rest_client.models.asset_tree_node import AssetTreeNode
-from or_rest_client.models.file_info import FileInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AgentApi
+from openremote_openapi_client.models.asset_tree_node import AssetTreeNode
+from openremote_openapi_client.models.file_info import FileInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -112,7 +112,7 @@ authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
 realm = 'realm_example' # str |  (optional)
-file_info = or_rest_client.FileInfo() # FileInfo |  (optional)
+file_info = openremote_openapi_client.FileInfo() # FileInfo |  (optional)
 
 try:
     # Do protocol asset import
@@ -167,9 +167,9 @@ Do protocol instance discovery
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AgentApi
-from or_rest_client.models.agent_object_object_object import AgentObjectObjectObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AgentApi
+from openremote_openapi_client.models.agent_object_object_object import AgentObjectObjectObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

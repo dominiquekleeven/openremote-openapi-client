@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.x509_provisioning_config import X509ProvisioningConfig
+from openremote_openapi_client.models.x509_provisioning_config import X509ProvisioningConfig
 
 # TODO update the JSON string below
 json = "{}"

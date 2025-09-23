@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.radial_geofence_predicate import RadialGeofencePredicate
+from openremote_openapi_client.models.radial_geofence_predicate import RadialGeofencePredicate
 
 # TODO update the JSON string below
 json = "{}"

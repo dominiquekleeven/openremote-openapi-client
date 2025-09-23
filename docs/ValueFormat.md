@@ -42,7 +42,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.value_format import ValueFormat
+from openremote_openapi_client.models.value_format import ValueFormat
 
 # TODO update the JSON string below
 json = "{}"

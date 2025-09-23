@@ -1,4 +1,4 @@
-# or_rest_client.NotificationApi
+# openremote_openapi_client.NotificationApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -19,9 +19,9 @@ Retrieve all sent notifications by targets
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, NotificationApi
-from or_rest_client.models.sent_notification import SentNotification
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client.models.sent_notification import SentNotification
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -103,8 +103,8 @@ Update a notification as acknowledged
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, NotificationApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -176,8 +176,8 @@ Update a notification as delivered
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, NotificationApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -247,8 +247,8 @@ Delete a sent notification
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, NotificationApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -316,8 +316,8 @@ Delete all sent notifications by targets
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, NotificationApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -397,9 +397,9 @@ Send a notification to one or more targets
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, NotificationApi
-from or_rest_client.models.notification import Notification
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client.models.notification import Notification
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -416,7 +416,7 @@ api_instance = NotificationApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-notification = or_rest_client.Notification() # Notification |  (optional)
+notification = openremote_openapi_client.Notification() # Notification |  (optional)
 
 try:
     # Send a notification to one or more targets

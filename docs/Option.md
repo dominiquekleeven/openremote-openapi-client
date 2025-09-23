@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.option import Option
+from openremote_openapi_client.models.option import Option
 
 # TODO update the JSON string below
 json = "{}"

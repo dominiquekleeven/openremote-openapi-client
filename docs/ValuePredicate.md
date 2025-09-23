@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.value_predicate import ValuePredicate
+from openremote_openapi_client.models.value_predicate import ValuePredicate
 
 # TODO update the JSON string below
 json = "{}"

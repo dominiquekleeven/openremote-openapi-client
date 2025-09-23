@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.asset_object import AssetObject
+from openremote_openapi_client.models.asset_object import AssetObject
 
 # TODO update the JSON string below
 json = "{}"

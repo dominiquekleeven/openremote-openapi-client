@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.meta_item_object import MetaItemObject
+from openremote_openapi_client.models.meta_item_object import MetaItemObject
 
 # TODO update the JSON string below
 json = "{}"

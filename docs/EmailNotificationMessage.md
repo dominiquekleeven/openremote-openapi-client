@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.email_notification_message import EmailNotificationMessage
+from openremote_openapi_client.models.email_notification_message import EmailNotificationMessage
 
 # TODO update the JSON string below
 json = "{}"

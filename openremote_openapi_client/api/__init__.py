@@ -1,0 +1,24 @@
+# flake8: noqa
+
+# import apis into api package
+from openremote_openapi_client.api.agent_api import AgentApi
+from openremote_openapi_client.api.alarm_api import AlarmApi
+from openremote_openapi_client.api.asset_api import AssetApi
+from openremote_openapi_client.api.asset_datapoint_api import AssetDatapointApi
+from openremote_openapi_client.api.asset_model_api import AssetModelApi
+from openremote_openapi_client.api.asset_predicted_datapoint_api import AssetPredictedDatapointApi
+from openremote_openapi_client.api.configuration_api import ConfigurationApi
+from openremote_openapi_client.api.console_api import ConsoleApi
+from openremote_openapi_client.api.dashboard_api import DashboardApi
+from openremote_openapi_client.api.flow_api import FlowApi
+from openremote_openapi_client.api.gateway_api import GatewayApi
+from openremote_openapi_client.api.map_api import MapApi
+from openremote_openapi_client.api.notification_api import NotificationApi
+from openremote_openapi_client.api.provisioning_api import ProvisioningApi
+from openremote_openapi_client.api.realm_api import RealmApi
+from openremote_openapi_client.api.rule_api import RuleApi
+from openremote_openapi_client.api.status_api import StatusApi
+from openremote_openapi_client.api.syslog_api import SyslogApi
+from openremote_openapi_client.api.ui_apps_api import UIAppsApi
+from openremote_openapi_client.api.user_api import UserApi
+

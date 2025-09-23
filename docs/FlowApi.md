@@ -1,4 +1,4 @@
-# or_rest_client.FlowApi
+# openremote_openapi_client.FlowApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -16,9 +16,9 @@ Retrieve all node definitions
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, FlowApi
-from or_rest_client.models.node import Node
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, FlowApi
+from openremote_openapi_client.models.node import Node
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -86,9 +86,9 @@ Retrieve all node definitions by type
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, FlowApi
-from or_rest_client.models.node import Node
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, FlowApi
+from openremote_openapi_client.models.node import Node
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -158,9 +158,9 @@ Retrieve a node definition by name
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, FlowApi
-from or_rest_client.models.node import Node
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, FlowApi
+from openremote_openapi_client.models.node import Node
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

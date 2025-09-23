@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.map_config import MapConfig
+from openremote_openapi_client.models.map_config import MapConfig
 
 # TODO update the JSON string below
 json = "{}"

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.asset_type_info import AssetTypeInfo
+from openremote_openapi_client.models.asset_type_info import AssetTypeInfo
 
 # TODO update the JSON string below
 json = "{}"

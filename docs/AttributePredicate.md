@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.attribute_predicate import AttributePredicate
+from openremote_openapi_client.models.attribute_predicate import AttributePredicate
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# or_rest_client.AssetDatapointApi
+# openremote_openapi_client.AssetDatapointApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -16,8 +16,8 @@ Retrieve a datapoint export of an asset attribute
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetDatapointApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetDatapointApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -83,9 +83,9 @@ Retrieve a datapoint period of an asset attribute
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetDatapointApi
-from or_rest_client.models.datapoint_period import DatapointPeriod
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetDatapointApi
+from openremote_openapi_client.models.datapoint_period import DatapointPeriod
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -157,10 +157,10 @@ Retrieve the historical datapoints of an asset attribute
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetDatapointApi
-from or_rest_client.models.asset_datapoint_query import AssetDatapointQuery
-from or_rest_client.models.value_datapoint_object import ValueDatapointObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetDatapointApi
+from openremote_openapi_client.models.asset_datapoint_query import AssetDatapointQuery
+from openremote_openapi_client.models.value_datapoint_object import ValueDatapointObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -179,7 +179,7 @@ attribute_name = 'attribute_name_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_datapoint_query = or_rest_client.AssetDatapointQuery() # AssetDatapointQuery |  (optional)
+asset_datapoint_query = openremote_openapi_client.AssetDatapointQuery() # AssetDatapointQuery |  (optional)
 
 try:
     # Retrieve the historical datapoints of an asset attribute

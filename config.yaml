@@ -4,7 +4,7 @@ outputDir: .
 templateDir: templates
 
 additionalProperties:
-  packageName: or_rest_client
+  packageName: openremote_openapi_client
   packageVersion: 0.1.0
 
 globalProperties:

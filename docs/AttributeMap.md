@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.attribute_map import AttributeMap
+from openremote_openapi_client.models.attribute_map import AttributeMap
 
 # TODO update the JSON string below
 json = "{}"

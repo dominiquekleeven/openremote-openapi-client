@@ -1,4 +1,4 @@
-# or_rest_client.RuleApi
+# openremote_openapi_client.RuleApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -32,9 +32,9 @@ Create an asset ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.asset_ruleset import AssetRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.asset_ruleset import AssetRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -51,7 +51,7 @@ api_instance = RuleApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_ruleset = or_rest_client.AssetRuleset() # AssetRuleset |  (optional)
+asset_ruleset = openremote_openapi_client.AssetRuleset() # AssetRuleset |  (optional)
 
 try:
     # Create an asset ruleset
@@ -104,9 +104,9 @@ Create a global ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.global_ruleset import GlobalRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.global_ruleset import GlobalRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -123,7 +123,7 @@ api_instance = RuleApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-global_ruleset = or_rest_client.GlobalRuleset() # GlobalRuleset |  (optional)
+global_ruleset = openremote_openapi_client.GlobalRuleset() # GlobalRuleset |  (optional)
 
 try:
     # Create a global ruleset
@@ -176,9 +176,9 @@ Create a realm ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.realm_ruleset import RealmRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.realm_ruleset import RealmRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -195,7 +195,7 @@ api_instance = RuleApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm_ruleset = or_rest_client.RealmRuleset() # RealmRuleset |  (optional)
+realm_ruleset = openremote_openapi_client.RealmRuleset() # RealmRuleset |  (optional)
 
 try:
     # Create a realm ruleset
@@ -248,8 +248,8 @@ Delete an asset ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -317,8 +317,8 @@ Delete a global ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -386,8 +386,8 @@ Delete a realm ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -455,9 +455,9 @@ Retrieve information about an asset rules engine
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.rules_engine_info import RulesEngineInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.rules_engine_info import RulesEngineInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -527,9 +527,9 @@ Get the geofences of an asset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.geofence_definition import GeofenceDefinition
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.geofence_definition import GeofenceDefinition
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -599,9 +599,9 @@ Retrieve an asset ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.asset_ruleset import AssetRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.asset_ruleset import AssetRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -671,9 +671,9 @@ Retrieve the rules of an asset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.asset_ruleset import AssetRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.asset_ruleset import AssetRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -747,9 +747,9 @@ Retrieve information about the global rules engine
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.rules_engine_info import RulesEngineInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.rules_engine_info import RulesEngineInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -817,9 +817,9 @@ Retrieve a global ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.global_ruleset import GlobalRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.global_ruleset import GlobalRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -889,9 +889,9 @@ Name | Type | Description  | Notes
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.global_ruleset import GlobalRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.global_ruleset import GlobalRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -963,9 +963,9 @@ Retrieve information about a realm rules engine
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.rules_engine_info import RulesEngineInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.rules_engine_info import RulesEngineInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1035,9 +1035,9 @@ Retrieve a realm ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.realm_ruleset import RealmRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.realm_ruleset import RealmRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1107,9 +1107,9 @@ Retrieve the rules of a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.realm_ruleset import RealmRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.realm_ruleset import RealmRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1183,9 +1183,9 @@ Update an asset ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.asset_ruleset import AssetRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.asset_ruleset import AssetRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1203,7 +1203,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_ruleset = or_rest_client.AssetRuleset() # AssetRuleset |  (optional)
+asset_ruleset = openremote_openapi_client.AssetRuleset() # AssetRuleset |  (optional)
 
 try:
     # Update an asset ruleset
@@ -1255,9 +1255,9 @@ Update a global ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.global_ruleset import GlobalRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.global_ruleset import GlobalRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1275,7 +1275,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-global_ruleset = or_rest_client.GlobalRuleset() # GlobalRuleset |  (optional)
+global_ruleset = openremote_openapi_client.GlobalRuleset() # GlobalRuleset |  (optional)
 
 try:
     # Update a global ruleset
@@ -1327,9 +1327,9 @@ Update a realm ruleset
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, RuleApi
-from or_rest_client.models.realm_ruleset import RealmRuleset
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client.models.realm_ruleset import RealmRuleset
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1347,7 +1347,7 @@ id = 56 # int |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-realm_ruleset = or_rest_client.RealmRuleset() # RealmRuleset |  (optional)
+realm_ruleset = openremote_openapi_client.RealmRuleset() # RealmRuleset |  (optional)
 
 try:
     # Update a realm ruleset

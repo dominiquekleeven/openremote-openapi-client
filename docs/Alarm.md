@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.alarm import Alarm
+from openremote_openapi_client.models.alarm import Alarm
 
 # TODO update the JSON string below
 json = "{}"

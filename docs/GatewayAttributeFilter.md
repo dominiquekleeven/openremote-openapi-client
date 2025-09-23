@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.gateway_attribute_filter import GatewayAttributeFilter
+from openremote_openapi_client.models.gateway_attribute_filter import GatewayAttributeFilter
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# or_rest_client.GatewayApi
+# openremote_openapi_client.GatewayApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -24,8 +24,8 @@ Delete the gateway connection of a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -93,8 +93,8 @@ Delete the gateway connections of multiple realms
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -162,9 +162,9 @@ Retrieve the gateway tunnel information of tunnel for a gateway in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_tunnel_info import GatewayTunnelInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -240,9 +240,9 @@ Retrieve all active gateway tunnel information of a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_tunnel_info import GatewayTunnelInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -312,9 +312,9 @@ Retrieve the gateway connection of a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_connection import GatewayConnection
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_connection import GatewayConnection
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -384,8 +384,8 @@ Retrieve the gateway connection status of a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -455,9 +455,9 @@ Retrieve the gateway connections of all realms
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_connection import GatewayConnection
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_connection import GatewayConnection
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -525,9 +525,9 @@ Retrieve the active gateway tunnel information of gateway in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_tunnel_info import GatewayTunnelInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -599,9 +599,9 @@ Update the gateway connection of a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_connection import GatewayConnection
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_connection import GatewayConnection
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -619,7 +619,7 @@ realm = 'realm_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-gateway_connection = or_rest_client.GatewayConnection() # GatewayConnection |  (optional)
+gateway_connection = openremote_openapi_client.GatewayConnection() # GatewayConnection |  (optional)
 
 try:
     # Update the gateway connection of a realm
@@ -671,9 +671,9 @@ Start a tunnel for a gateway
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_tunnel_info import GatewayTunnelInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -687,7 +687,7 @@ client = AuthenticatedApiClient(
 
 # Create an instance of the API class
 api_instance = GatewayApi(client)
-gateway_tunnel_info = or_rest_client.GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
+gateway_tunnel_info = openremote_openapi_client.GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
 
 try:
     # Start a tunnel for a gateway
@@ -737,9 +737,9 @@ Stop a tunnel for a gateway
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, GatewayApi
-from or_rest_client.models.gateway_tunnel_info import GatewayTunnelInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -753,7 +753,7 @@ client = AuthenticatedApiClient(
 
 # Create an instance of the API class
 api_instance = GatewayApi(client)
-gateway_tunnel_info = or_rest_client.GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
+gateway_tunnel_info = openremote_openapi_client.GatewayTunnelInfo() # GatewayTunnelInfo |  (optional)
 
 try:
     # Stop a tunnel for a gateway

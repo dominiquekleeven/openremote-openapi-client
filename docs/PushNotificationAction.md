@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.push_notification_action import PushNotificationAction
+from openremote_openapi_client.models.push_notification_action import PushNotificationAction
 
 # TODO update the JSON string below
 json = "{}"

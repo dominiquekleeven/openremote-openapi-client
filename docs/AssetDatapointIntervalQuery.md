@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.asset_datapoint_interval_query import AssetDatapointIntervalQuery
+from openremote_openapi_client.models.asset_datapoint_interval_query import AssetDatapointIntervalQuery
 
 # TODO update the JSON string below
 json = "{}"

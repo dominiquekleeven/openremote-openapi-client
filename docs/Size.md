@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.size import Size
+from openremote_openapi_client.models.size import Size
 
 # TODO update the JSON string below
 json = "{}"

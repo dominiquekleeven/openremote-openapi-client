@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.node_internal import NodeInternal
+from openremote_openapi_client.models.node_internal import NodeInternal
 
 # TODO update the JSON string below
 json = "{}"

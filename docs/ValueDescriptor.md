@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.value_descriptor import ValueDescriptor
+from openremote_openapi_client.models.value_descriptor import ValueDescriptor
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# or_rest_client.UserApi
+# openremote_openapi_client.UserApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -37,9 +37,9 @@ Create a new user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.user import User
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.user import User
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -57,7 +57,7 @@ realm = 'realm_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user = or_rest_client.User() # User |  (optional)
+user = openremote_openapi_client.User() # User |  (optional)
 
 try:
     # Create a new user in a realm
@@ -111,8 +111,8 @@ Delete a user from a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -182,8 +182,8 @@ Disconnect a user session using a session ID
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -253,9 +253,9 @@ Retrieve client roles for a realm and client
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.role import Role
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.role import Role
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -327,9 +327,9 @@ Retrieve the currently authenticated user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.user import User
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.user import User
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -397,8 +397,8 @@ Retrieve client roles for the currently authenticated user using a client ID
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -468,8 +468,8 @@ Retrieve realm roles for the currently authenticated user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -537,9 +537,9 @@ Retrieve a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.user import User
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.user import User
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -611,8 +611,8 @@ Retrieve client roles for a user using a client ID in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -686,8 +686,8 @@ Retrieve realm roles for a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -759,9 +759,9 @@ Retrieve sessions for a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.user_session import UserSession
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.user_session import UserSession
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -833,10 +833,10 @@ Query users based on criteria
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.user import User
-from or_rest_client.models.user_query import UserQuery
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.user import User
+from openremote_openapi_client.models.user_query import UserQuery
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -853,7 +853,7 @@ api_instance = UserApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user_query = or_rest_client.UserQuery() # UserQuery |  (optional)
+user_query = openremote_openapi_client.UserQuery() # UserQuery |  (optional)
 
 try:
     # Query users based on criteria
@@ -906,8 +906,8 @@ Request a password reset for the currently authenticated user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -973,8 +973,8 @@ Request a password reset for a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1044,8 +1044,8 @@ Reset the secret for a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1117,9 +1117,9 @@ Update client roles for a realm and client
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.role import Role
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.role import Role
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1138,7 +1138,7 @@ client_id = 'client_id_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-role = [or_rest_client.Role()] # List[Role] |  (optional)
+role = [openremote_openapi_client.Role()] # List[Role] |  (optional)
 
 try:
     # Update client roles for a realm and client
@@ -1191,8 +1191,8 @@ Update locale for the current user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1260,9 +1260,9 @@ Update the password for the currently authenticated user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.credential import Credential
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.credential import Credential
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1279,7 +1279,7 @@ api_instance = UserApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-credential = or_rest_client.Credential() # Credential |  (optional)
+credential = openremote_openapi_client.Credential() # Credential |  (optional)
 
 try:
     # Update the password for the currently authenticated user
@@ -1330,9 +1330,9 @@ Update the password for a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.credential import Credential
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.credential import Credential
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1351,7 +1351,7 @@ user_id = 'user_id_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-credential = or_rest_client.Credential() # Credential |  (optional)
+credential = openremote_openapi_client.Credential() # Credential |  (optional)
 
 try:
     # Update the password for a user in a realm
@@ -1404,9 +1404,9 @@ Update roles for a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.role import Role
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.role import Role
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1424,7 +1424,7 @@ realm = 'realm_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-role = [or_rest_client.Role()] # List[Role] |  (optional)
+role = [openremote_openapi_client.Role()] # List[Role] |  (optional)
 
 try:
     # Update roles for a realm
@@ -1476,9 +1476,9 @@ Update the currently authenticated user
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.user import User
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.user import User
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1495,7 +1495,7 @@ api_instance = UserApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user = or_rest_client.User() # User |  (optional)
+user = openremote_openapi_client.User() # User |  (optional)
 
 try:
     # Update the currently authenticated user
@@ -1548,9 +1548,9 @@ Update a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.models.user import User
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.models.user import User
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1568,7 +1568,7 @@ realm = 'realm_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-user = or_rest_client.User() # User |  (optional)
+user = openremote_openapi_client.User() # User |  (optional)
 
 try:
     # Update a user in a realm
@@ -1622,8 +1622,8 @@ Update client roles for a user in a realm using a client ID
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -1697,8 +1697,8 @@ Update realm roles for a user in a realm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, UserApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

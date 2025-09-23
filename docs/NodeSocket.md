@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.node_socket import NodeSocket
+from openremote_openapi_client.models.node_socket import NodeSocket
 
 # TODO update the JSON string below
 json = "{}"

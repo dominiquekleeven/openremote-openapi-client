@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.past import Past
+from openremote_openapi_client.models.past import Past
 
 # TODO update the JSON string below
 json = "{}"

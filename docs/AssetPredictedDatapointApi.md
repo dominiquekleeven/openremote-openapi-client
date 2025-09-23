@@ -1,4 +1,4 @@
-# or_rest_client.AssetPredictedDatapointApi
+# openremote_openapi_client.AssetPredictedDatapointApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -15,10 +15,10 @@ Retrieve the predicted datapoints of an asset attribute
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetPredictedDatapointApi
-from or_rest_client.models.asset_datapoint_query import AssetDatapointQuery
-from or_rest_client.models.value_datapoint_object import ValueDatapointObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetPredictedDatapointApi
+from openremote_openapi_client.models.asset_datapoint_query import AssetDatapointQuery
+from openremote_openapi_client.models.value_datapoint_object import ValueDatapointObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -37,7 +37,7 @@ attribute_name = 'attribute_name_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-asset_datapoint_query = or_rest_client.AssetDatapointQuery() # AssetDatapointQuery |  (optional)
+asset_datapoint_query = openremote_openapi_client.AssetDatapointQuery() # AssetDatapointQuery |  (optional)
 
 try:
     # Retrieve the predicted datapoints of an asset attribute
@@ -92,9 +92,9 @@ Write the predicted datapoints of an asset attribute
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetPredictedDatapointApi
-from or_rest_client.models.value_datapoint_object import ValueDatapointObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetPredictedDatapointApi
+from openremote_openapi_client.models.value_datapoint_object import ValueDatapointObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -113,7 +113,7 @@ attribute_name = 'attribute_name_example' # str |
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-value_datapoint_object = [or_rest_client.ValueDatapointObject()] # List[ValueDatapointObject] |  (optional)
+value_datapoint_object = [openremote_openapi_client.ValueDatapointObject()] # List[ValueDatapointObject] |  (optional)
 
 try:
     # Write the predicted datapoints of an asset attribute

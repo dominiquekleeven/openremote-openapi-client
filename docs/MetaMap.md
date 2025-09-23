@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.meta_map import MetaMap
+from openremote_openapi_client.models.meta_map import MetaMap
 
 # TODO update the JSON string below
 json = "{}"

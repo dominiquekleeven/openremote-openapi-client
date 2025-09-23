@@ -10,7 +10,7 @@ import sys
 import logging
 from pathlib import Path
 
-from or_rest_client import AuthenticatedApiClient, StatusApi, Configuration
+from openremote_openapi_client import AuthenticatedApiClient, StatusApi, Configuration
 
 # Enable debug logging
 logging.basicConfig(level=logging.DEBUG)

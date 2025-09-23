@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.parent_predicate import ParentPredicate
+from openremote_openapi_client.models.parent_predicate import ParentPredicate
 
 # TODO update the JSON string below
 json = "{}"

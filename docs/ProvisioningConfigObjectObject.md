@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
+from openremote_openapi_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
 
 # TODO update the JSON string below
 json = "{}"

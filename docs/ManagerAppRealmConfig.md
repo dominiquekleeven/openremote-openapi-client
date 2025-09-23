@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.manager_app_realm_config import ManagerAppRealmConfig
+from openremote_openapi_client.models.manager_app_realm_config import ManagerAppRealmConfig
 
 # TODO update the JSON string below
 json = "{}"

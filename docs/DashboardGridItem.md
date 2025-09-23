@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.dashboard_grid_item import DashboardGridItem
+from openremote_openapi_client.models.dashboard_grid_item import DashboardGridItem
 
 # TODO update the JSON string below
 json = "{}"

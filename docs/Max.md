@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.max import Max
+from openremote_openapi_client.models.max import Max
 
 # TODO update the JSON string below
 json = "{}"

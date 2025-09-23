@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.not_blank import NotBlank
+from openremote_openapi_client.models.not_blank import NotBlank
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# or_rest_client.ConfigurationApi
+# openremote_openapi_client.ConfigurationApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -17,9 +17,9 @@ Upload a file
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ConfigurationApi
-from or_rest_client.models.file_info import FileInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client.models.file_info import FileInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -37,7 +37,7 @@ authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
 path = 'path_example' # str |  (optional)
-file_info = or_rest_client.FileInfo() # FileInfo |  (optional)
+file_info = openremote_openapi_client.FileInfo() # FileInfo |  (optional)
 
 try:
     # Upload a file
@@ -91,9 +91,9 @@ Retrieve the manager configuration JSON
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ConfigurationApi
-from or_rest_client.models.manager_app_config import ManagerAppConfig
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client.models.manager_app_config import ManagerAppConfig
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -153,8 +153,8 @@ Retrieve manager configuration images
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ConfigurationApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -218,9 +218,9 @@ Update manager configuration
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ConfigurationApi
-from or_rest_client.models.manager_app_config import ManagerAppConfig
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client.models.manager_app_config import ManagerAppConfig
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -237,7 +237,7 @@ api_instance = ConfigurationApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-manager_app_config = or_rest_client.ManagerAppConfig() # ManagerAppConfig |  (optional)
+manager_app_config = openremote_openapi_client.ManagerAppConfig() # ManagerAppConfig |  (optional)
 
 try:
     # Update manager configuration

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.datapoint_period import DatapointPeriod
+from openremote_openapi_client.models.datapoint_period import DatapointPeriod
 
 # TODO update the JSON string below
 json = "{}"

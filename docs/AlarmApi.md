@@ -1,4 +1,4 @@
-# or_rest_client.AlarmApi
+# openremote_openapi_client.AlarmApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -21,9 +21,9 @@ Create an alarm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.models.sent_alarm import SentAlarm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.models.sent_alarm import SentAlarm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -93,9 +93,9 @@ Retrieve an alarm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.models.sent_alarm import SentAlarm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.models.sent_alarm import SentAlarm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -165,9 +165,9 @@ Retrieve all alarms or a subset using filter criteria
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.models.sent_alarm import SentAlarm
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.models.sent_alarm import SentAlarm
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -243,9 +243,9 @@ Retrieve the asset links of an alarm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.models.alarm_asset_link import AlarmAssetLink
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.models.alarm_asset_link import AlarmAssetLink
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -317,8 +317,8 @@ Remove an alarm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -386,8 +386,8 @@ Remove alarms
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -453,8 +453,8 @@ Set the asset links of an alarm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -520,8 +520,8 @@ Update an alarm
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AlarmApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

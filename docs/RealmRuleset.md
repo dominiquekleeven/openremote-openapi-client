@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.realm_ruleset import RealmRuleset
+from openremote_openapi_client.models.realm_ruleset import RealmRuleset
 
 # TODO update the JSON string below
 json = "{}"

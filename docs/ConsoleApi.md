@@ -1,4 +1,4 @@
-# or_rest_client.ConsoleApi
+# openremote_openapi_client.ConsoleApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -14,9 +14,9 @@ Create or update the registration for a console
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, ConsoleApi
-from or_rest_client.models.console_registration import ConsoleRegistration
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, ConsoleApi
+from openremote_openapi_client.models.console_registration import ConsoleRegistration
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -30,7 +30,7 @@ client = AuthenticatedApiClient(
 
 # Create an instance of the API class
 api_instance = ConsoleApi(client)
-console_registration = or_rest_client.ConsoleRegistration() # ConsoleRegistration | 
+console_registration = openremote_openapi_client.ConsoleRegistration() # ConsoleRegistration | 
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)

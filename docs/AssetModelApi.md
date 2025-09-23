@@ -1,4 +1,4 @@
-# or_rest_client.AssetModelApi
+# openremote_openapi_client.AssetModelApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -18,9 +18,9 @@ Retrieve the available asset descriptors
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetModelApi
-from or_rest_client.models.asset_descriptor_object import AssetDescriptorObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client.models.asset_descriptor_object import AssetDescriptorObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -92,9 +92,9 @@ Retrieve the asset type information of an asset type
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetModelApi
-from or_rest_client.models.asset_type_info import AssetTypeInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client.models.asset_type_info import AssetTypeInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -166,9 +166,9 @@ Retrieve the asset type information of each available asset type
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetModelApi
-from or_rest_client.models.asset_type_info import AssetTypeInfo
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client.models.asset_type_info import AssetTypeInfo
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -240,9 +240,9 @@ Retrieve the available meta item descriptors
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetModelApi
-from or_rest_client.models.meta_item_descriptor_object import MetaItemDescriptorObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client.models.meta_item_descriptor_object import MetaItemDescriptorObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -312,9 +312,9 @@ Retrieve the available value descriptors
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, AssetModelApi
-from or_rest_client.models.value_descriptor_object import ValueDescriptorObject
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client.models.value_descriptor_object import ValueDescriptorObject
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

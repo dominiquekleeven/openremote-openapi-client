@@ -1,4 +1,4 @@
-# or_rest_client.DashboardApi
+# openremote_openapi_client.DashboardApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -19,9 +19,9 @@ Create a dashboard
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, DashboardApi
-from or_rest_client.models.dashboard import Dashboard
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client.models.dashboard import Dashboard
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -38,7 +38,7 @@ api_instance = DashboardApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-dashboard = or_rest_client.Dashboard() # Dashboard |  (optional)
+dashboard = openremote_openapi_client.Dashboard() # Dashboard |  (optional)
 
 try:
     # Create a dashboard
@@ -91,8 +91,8 @@ Delete a dashboard
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, DashboardApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -162,9 +162,9 @@ Retrieve all accessible dashboards
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, DashboardApi
-from or_rest_client.models.dashboard import Dashboard
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client.models.dashboard import Dashboard
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -234,9 +234,9 @@ Retrieve a dashboard
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, DashboardApi
-from or_rest_client.models.dashboard import Dashboard
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client.models.dashboard import Dashboard
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -308,10 +308,10 @@ Retrieve dashboards using a query
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, DashboardApi
-from or_rest_client.models.dashboard import Dashboard
-from or_rest_client.models.dashboard_query import DashboardQuery
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client.models.dashboard import Dashboard
+from openremote_openapi_client.models.dashboard_query import DashboardQuery
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -328,7 +328,7 @@ api_instance = DashboardApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-dashboard_query = or_rest_client.DashboardQuery() # DashboardQuery |  (optional)
+dashboard_query = openremote_openapi_client.DashboardQuery() # DashboardQuery |  (optional)
 
 try:
     # Retrieve dashboards using a query
@@ -381,9 +381,9 @@ Update a dashboard
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, DashboardApi
-from or_rest_client.models.dashboard import Dashboard
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client.models.dashboard import Dashboard
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -400,7 +400,7 @@ api_instance = DashboardApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-dashboard = or_rest_client.Dashboard() # Dashboard |  (optional)
+dashboard = openremote_openapi_client.Dashboard() # Dashboard |  (optional)
 
 try:
     # Update a dashboard

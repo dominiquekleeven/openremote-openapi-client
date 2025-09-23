@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.asset_conditions import AssetConditions
+from openremote_openapi_client.models.asset_conditions import AssetConditions
 
 # TODO update the JSON string below
 json = "{}"

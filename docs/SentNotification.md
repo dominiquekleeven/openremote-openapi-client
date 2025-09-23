@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.sent_notification import SentNotification
+from openremote_openapi_client.models.sent_notification import SentNotification
 
 # TODO update the JSON string below
 json = "{}"

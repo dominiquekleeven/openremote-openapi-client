@@ -1,4 +1,4 @@
-# or_rest_client.SyslogApi
+# openremote_openapi_client.SyslogApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -17,8 +17,8 @@ Clear the syslog events
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, SyslogApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -84,9 +84,9 @@ Retrieve the syslog configuration
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, SyslogApi
-from or_rest_client.models.syslog_config import SyslogConfig
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client.models.syslog_config import SyslogConfig
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -154,8 +154,8 @@ Retrieve the syslog events
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, SyslogApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -235,9 +235,9 @@ Update the syslog configuration
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, SyslogApi
-from or_rest_client.models.syslog_config import SyslogConfig
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client.models.syslog_config import SyslogConfig
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -254,7 +254,7 @@ api_instance = SyslogApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-syslog_config = or_rest_client.SyslogConfig() # SyslogConfig |  (optional)
+syslog_config = openremote_openapi_client.SyslogConfig() # SyslogConfig |  (optional)
 
 try:
     # Update the syslog configuration

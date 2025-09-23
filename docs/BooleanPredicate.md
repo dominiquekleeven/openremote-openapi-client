@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.boolean_predicate import BooleanPredicate
+from openremote_openapi_client.models.boolean_predicate import BooleanPredicate
 
 # TODO update the JSON string below
 json = "{}"

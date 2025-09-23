@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.gateway_asset_sync_rule import GatewayAssetSyncRule
+from openremote_openapi_client.models.gateway_asset_sync_rule import GatewayAssetSyncRule
 
 # TODO update the JSON string below
 json = "{}"

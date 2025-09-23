@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.gateway_connection import GatewayConnection
+from openremote_openapi_client.models.gateway_connection import GatewayConnection
 
 # TODO update the JSON string below
 json = "{}"

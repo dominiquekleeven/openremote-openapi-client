@@ -1,4 +1,4 @@
-# or_rest_client.MapApi
+# openremote_openapi_client.MapApi
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -20,8 +20,8 @@ Removes mbtiles file
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, MapApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -89,8 +89,8 @@ Retrieve if the map is custom and custom map limit
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, MapApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -150,8 +150,8 @@ Retrieve the style used for Mapbox GL
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, MapApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -219,8 +219,8 @@ Retrieve the tileJSON object used for Mapbox GL
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, MapApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -288,8 +288,8 @@ Retrieve the vector tile data for Mapbox GL
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, MapApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -357,9 +357,9 @@ Update map settings
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, MapApi
-from or_rest_client.models.map_config import MapConfig
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client.models.map_config import MapConfig
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote
@@ -376,7 +376,7 @@ api_instance = MapApi(client)
 authorization = 'authorization_example' # str |  (optional)
 x_forwarded_proto = 'x_forwarded_proto_example' # str |  (optional)
 x_forwarded_host = 'x_forwarded_host_example' # str |  (optional)
-map_config = or_rest_client.MapConfig() # MapConfig |  (optional)
+map_config = openremote_openapi_client.MapConfig() # MapConfig |  (optional)
 
 try:
     # Update map settings
@@ -429,8 +429,8 @@ Saves mbtiles file
 
 
 ```python
-from or_rest_client import AuthenticatedApiClient, MapApi
-from or_rest_client.rest import ApiException
+from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
 # Create authenticated client for OpenRemote

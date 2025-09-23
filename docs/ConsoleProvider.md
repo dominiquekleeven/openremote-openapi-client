@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.console_provider import ConsoleProvider
+from openremote_openapi_client.models.console_provider import ConsoleProvider
 
 # TODO update the JSON string below
 json = "{}"

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from or_rest_client.models.geo_json_config import GeoJsonConfig
+from openremote_openapi_client.models.geo_json_config import GeoJsonConfig
 
 # TODO update the JSON string below
 json = "{}"
