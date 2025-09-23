@@ -1,0 +1,12 @@
+generatorName: python
+inputSpec: https://demo.openremote.app/api/master/openapi.json
+outputDir: .
+templateDir: templates
+
+additionalProperties:
+  packageName: or_rest_client
+  packageVersion: 0.1.0
+
+globalProperties:
+  apiTests: false
+  modelTests: false
