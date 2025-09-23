@@ -96,7 +96,7 @@ wheels = [
 ]
 
 [[package]]
-name = "or-rest-client"
+name = "openremote-openapi-client"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

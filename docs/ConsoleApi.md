@@ -14,13 +14,13 @@ Create or update the registration for a console
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ConsoleApi
+from openremote_openapi_client import OpenRemoteApiClient, ConsoleApi
 from openremote_openapi_client.models.console_registration import ConsoleRegistration
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

@@ -16,12 +16,12 @@ Retrieve a datapoint export of an asset attribute
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetDatapointApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetDatapointApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -83,13 +83,13 @@ Retrieve a datapoint period of an asset attribute
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetDatapointApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetDatapointApi
 from openremote_openapi_client.models.datapoint_period import DatapointPeriod
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -157,14 +157,14 @@ Retrieve the historical datapoints of an asset attribute
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetDatapointApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetDatapointApi
 from openremote_openapi_client.models.asset_datapoint_query import AssetDatapointQuery
 from openremote_openapi_client.models.value_datapoint_object import ValueDatapointObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

@@ -20,12 +20,12 @@ Removes mbtiles file
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client import OpenRemoteApiClient, MapApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -89,12 +89,12 @@ Retrieve if the map is custom and custom map limit
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client import OpenRemoteApiClient, MapApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -150,12 +150,12 @@ Retrieve the style used for Mapbox GL
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client import OpenRemoteApiClient, MapApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -219,12 +219,12 @@ Retrieve the tileJSON object used for Mapbox GL
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client import OpenRemoteApiClient, MapApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -288,12 +288,12 @@ Retrieve the vector tile data for Mapbox GL
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client import OpenRemoteApiClient, MapApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -357,13 +357,13 @@ Update map settings
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client import OpenRemoteApiClient, MapApi
 from openremote_openapi_client.models.map_config import MapConfig
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -429,12 +429,12 @@ Saves mbtiles file
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, MapApi
+from openremote_openapi_client import OpenRemoteApiClient, MapApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

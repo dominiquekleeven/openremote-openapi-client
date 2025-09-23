@@ -15,14 +15,14 @@ Retrieve the predicted datapoints of an asset attribute
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetPredictedDatapointApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetPredictedDatapointApi
 from openremote_openapi_client.models.asset_datapoint_query import AssetDatapointQuery
 from openremote_openapi_client.models.value_datapoint_object import ValueDatapointObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -92,13 +92,13 @@ Write the predicted datapoints of an asset attribute
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetPredictedDatapointApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetPredictedDatapointApi
 from openremote_openapi_client.models.value_datapoint_object import ValueDatapointObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

@@ -19,13 +19,13 @@ Retrieve all sent notifications by targets
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client import OpenRemoteApiClient, NotificationApi
 from openremote_openapi_client.models.sent_notification import SentNotification
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -103,12 +103,12 @@ Update a notification as acknowledged
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client import OpenRemoteApiClient, NotificationApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -176,12 +176,12 @@ Update a notification as delivered
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client import OpenRemoteApiClient, NotificationApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -247,12 +247,12 @@ Delete a sent notification
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client import OpenRemoteApiClient, NotificationApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -316,12 +316,12 @@ Delete all sent notifications by targets
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client import OpenRemoteApiClient, NotificationApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -397,13 +397,13 @@ Send a notification to one or more targets
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, NotificationApi
+from openremote_openapi_client import OpenRemoteApiClient, NotificationApi
 from openremote_openapi_client.models.notification import Notification
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

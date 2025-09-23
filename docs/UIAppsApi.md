@@ -16,12 +16,12 @@ Retrieve the info of the available applications
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UIAppsApi
+from openremote_openapi_client import OpenRemoteApiClient, UIAppsApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -83,12 +83,12 @@ Retrieve a list of the available applications
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UIAppsApi
+from openremote_openapi_client import OpenRemoteApiClient, UIAppsApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -152,12 +152,12 @@ Retrieve the console configuration
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UIAppsApi
+from openremote_openapi_client import OpenRemoteApiClient, UIAppsApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

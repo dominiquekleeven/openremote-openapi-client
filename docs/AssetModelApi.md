@@ -18,13 +18,13 @@ Retrieve the available asset descriptors
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetModelApi
 from openremote_openapi_client.models.asset_descriptor_object import AssetDescriptorObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -92,13 +92,13 @@ Retrieve the asset type information of an asset type
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetModelApi
 from openremote_openapi_client.models.asset_type_info import AssetTypeInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -166,13 +166,13 @@ Retrieve the asset type information of each available asset type
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetModelApi
 from openremote_openapi_client.models.asset_type_info import AssetTypeInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -240,13 +240,13 @@ Retrieve the available meta item descriptors
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetModelApi
 from openremote_openapi_client.models.meta_item_descriptor_object import MetaItemDescriptorObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -312,13 +312,13 @@ Retrieve the available value descriptors
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetModelApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetModelApi
 from openremote_openapi_client.models.value_descriptor_object import ValueDescriptorObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

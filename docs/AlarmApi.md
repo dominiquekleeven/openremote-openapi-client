@@ -21,13 +21,13 @@ Create an alarm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.models.sent_alarm import SentAlarm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -93,13 +93,13 @@ Retrieve an alarm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.models.sent_alarm import SentAlarm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -165,13 +165,13 @@ Retrieve all alarms or a subset using filter criteria
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.models.sent_alarm import SentAlarm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -243,13 +243,13 @@ Retrieve the asset links of an alarm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.models.alarm_asset_link import AlarmAssetLink
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -317,12 +317,12 @@ Remove an alarm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -386,12 +386,12 @@ Remove alarms
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -453,12 +453,12 @@ Set the asset links of an alarm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -520,12 +520,12 @@ Update an alarm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AlarmApi
+from openremote_openapi_client import OpenRemoteApiClient, AlarmApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

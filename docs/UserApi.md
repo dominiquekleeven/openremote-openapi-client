@@ -37,13 +37,13 @@ Create a new user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.user import User
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -111,12 +111,12 @@ Delete a user from a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -182,12 +182,12 @@ Disconnect a user session using a session ID
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -253,13 +253,13 @@ Retrieve client roles for a realm and client
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.role import Role
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -327,13 +327,13 @@ Retrieve the currently authenticated user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.user import User
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -397,12 +397,12 @@ Retrieve client roles for the currently authenticated user using a client ID
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -468,12 +468,12 @@ Retrieve realm roles for the currently authenticated user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -537,13 +537,13 @@ Retrieve a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.user import User
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -611,12 +611,12 @@ Retrieve client roles for a user using a client ID in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -686,12 +686,12 @@ Retrieve realm roles for a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -759,13 +759,13 @@ Retrieve sessions for a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.user_session import UserSession
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -833,14 +833,14 @@ Query users based on criteria
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.user import User
 from openremote_openapi_client.models.user_query import UserQuery
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -906,12 +906,12 @@ Request a password reset for the currently authenticated user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -973,12 +973,12 @@ Request a password reset for a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1044,12 +1044,12 @@ Reset the secret for a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1117,13 +1117,13 @@ Update client roles for a realm and client
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.role import Role
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1191,12 +1191,12 @@ Update locale for the current user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1260,13 +1260,13 @@ Update the password for the currently authenticated user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.credential import Credential
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1330,13 +1330,13 @@ Update the password for a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.credential import Credential
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1404,13 +1404,13 @@ Update roles for a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.role import Role
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1476,13 +1476,13 @@ Update the currently authenticated user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.user import User
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1548,13 +1548,13 @@ Update a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.models.user import User
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1622,12 +1622,12 @@ Update client roles for a user in a realm using a client ID
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1697,12 +1697,12 @@ Update realm roles for a user in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, UserApi
+from openremote_openapi_client import OpenRemoteApiClient, UserApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

@@ -31,13 +31,13 @@ Create an asset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.asset_object import AssetObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -103,13 +103,13 @@ Create links between users and assets
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.user_asset_link import UserAssetLink
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -173,12 +173,12 @@ Delete all user asset links
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -244,12 +244,12 @@ Delete assets
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -313,12 +313,12 @@ Delete the parent of assets
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -382,12 +382,12 @@ Delete a link between an asset and user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -455,13 +455,13 @@ Delete user asset links
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.user_asset_link import UserAssetLink
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -525,13 +525,13 @@ Retrieve an asset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.asset_object import AssetObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -597,13 +597,13 @@ Retrieve the linked assets of the currently authenticated user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.asset_object import AssetObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -667,13 +667,13 @@ Retrieve a partially loaded asset (no attributes or path)
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.asset_object import AssetObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -739,13 +739,13 @@ Retrieve links between assets and users
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.user_asset_link import UserAssetLink
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -815,14 +815,14 @@ Retrieve assets using a query
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.asset_object import AssetObject
 from openremote_openapi_client.models.asset_query import AssetQuery
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -888,13 +888,13 @@ Update an asset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.asset_object import AssetObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -962,12 +962,12 @@ Update the parent of assets
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1033,14 +1033,14 @@ Update attribute values with timestamps
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.attribute_event import AttributeEvent
 from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1106,13 +1106,13 @@ Write to a single attribute
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1182,13 +1182,13 @@ Write to a single attribute with a timestamp
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1260,14 +1260,14 @@ Update attribute values
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AssetApi
+from openremote_openapi_client import OpenRemoteApiClient, AssetApi
 from openremote_openapi_client.models.attribute_state import AttributeState
 from openremote_openapi_client.models.attribute_write_result import AttributeWriteResult
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

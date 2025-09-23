@@ -15,12 +15,12 @@ Retrieve the health status of the system
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, StatusApi
+from openremote_openapi_client import OpenRemoteApiClient, StatusApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -76,12 +76,12 @@ Retrieve the system information
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, StatusApi
+from openremote_openapi_client import OpenRemoteApiClient, StatusApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

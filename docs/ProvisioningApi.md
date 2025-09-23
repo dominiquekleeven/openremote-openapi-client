@@ -17,13 +17,13 @@ Create a provisioning configuration
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client import OpenRemoteApiClient, ProvisioningApi
 from openremote_openapi_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -83,12 +83,12 @@ Delete a provisioning configuration
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client import OpenRemoteApiClient, ProvisioningApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -152,13 +152,13 @@ Retrieve all provisioning configurations
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client import OpenRemoteApiClient, ProvisioningApi
 from openremote_openapi_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -214,13 +214,13 @@ Update a provisioning configuration
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ProvisioningApi
+from openremote_openapi_client import OpenRemoteApiClient, ProvisioningApi
 from openremote_openapi_client.models.provisioning_config_object_object import ProvisioningConfigObjectObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

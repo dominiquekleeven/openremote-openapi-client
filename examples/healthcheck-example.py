@@ -10,7 +10,7 @@ import sys
 import logging
 from pathlib import Path
 
-from openremote_openapi_client import AuthenticatedApiClient, StatusApi, Configuration
+from openremote_openapi_client import OpenRemoteApiClient, StatusApi, Configuration
 
 # Enable debug logging
 logging.basicConfig(level=logging.DEBUG)
@@ -29,7 +29,7 @@ def main():
 
     try:
         # Create authenticated API client with Keycloak
-        api_client = AuthenticatedApiClient(
+        api_client = OpenRemoteApiClient(
             base_url=BASE_URL,
             keycloak_url=KEYCLOAK_URL,
             client_id=CLIENT_ID,

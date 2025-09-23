@@ -818,8 +818,21 @@ class ApiClient:
         return klass.from_dict(data)
 
 
-class AuthenticatedApiClient(ApiClient):
-    """API client that automatically handles Keycloak OAuth2 authentication"""
+class OpenRemoteApiClient(ApiClient):
+    """
+    Custom client that handles the authentication with Keycloak and the token lifecycle
+    
+    :param base_url: The base URL of the OpenRemote Manager
+    :param keycloak_url: The URL of the Keycloak server
+    :param client_id: The client ID for the OpenRemote Manager
+    :param client_secret: The client secret for the OpenRemote Manager
+    :param realm: The realm to use for the OpenRemote Manager
+    :param timeout: The timeout for the OpenRemote Manager
+    :param configuration: The configuration for the OpenRemote Manager
+    
+    This client handles the authentication with Keycloak and the token lifecycle.
+    It automatically refreshes the token when it is about to expire.
+    """
     
     def __init__(
         self,

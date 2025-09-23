@@ -11,7 +11,7 @@ __all__ = [
     {{#apiInfo}}{{#apis}}"{{classname}}",
     {{/apis}}{{/apiInfo}}    "ApiResponse",
     "ApiClient",
-    "AuthenticatedApiClient",
+    "OpenRemoteApiClient",
     "Configuration",
     "OpenApiException",
     "ApiTypeError",
@@ -30,7 +30,7 @@ __all__ = [
 # import ApiClient
 from {{packageName}}.api_response import ApiResponse as ApiResponse
 from {{packageName}}.api_client import ApiClient as ApiClient
-from {{packageName}}.api_client import AuthenticatedApiClient as AuthenticatedApiClient
+from {{packageName}}.api_client import OpenRemoteApiClient as OpenRemoteApiClient
 from {{packageName}}.configuration import Configuration as Configuration
 from {{packageName}}.exceptions import OpenApiException as OpenApiException
 from {{packageName}}.exceptions import ApiTypeError as ApiTypeError

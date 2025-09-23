@@ -19,13 +19,13 @@ Create a dashboard
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client import OpenRemoteApiClient, DashboardApi
 from openremote_openapi_client.models.dashboard import Dashboard
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -91,12 +91,12 @@ Delete a dashboard
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client import OpenRemoteApiClient, DashboardApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -162,13 +162,13 @@ Retrieve all accessible dashboards
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client import OpenRemoteApiClient, DashboardApi
 from openremote_openapi_client.models.dashboard import Dashboard
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -234,13 +234,13 @@ Retrieve a dashboard
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client import OpenRemoteApiClient, DashboardApi
 from openremote_openapi_client.models.dashboard import Dashboard
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -308,14 +308,14 @@ Retrieve dashboards using a query
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client import OpenRemoteApiClient, DashboardApi
 from openremote_openapi_client.models.dashboard import Dashboard
 from openremote_openapi_client.models.dashboard_query import DashboardQuery
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -381,13 +381,13 @@ Update a dashboard
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, DashboardApi
+from openremote_openapi_client import OpenRemoteApiClient, DashboardApi
 from openremote_openapi_client.models.dashboard import Dashboard
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

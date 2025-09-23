@@ -16,13 +16,13 @@ Retrieve all node definitions
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, FlowApi
+from openremote_openapi_client import OpenRemoteApiClient, FlowApi
 from openremote_openapi_client.models.node import Node
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -86,13 +86,13 @@ Retrieve all node definitions by type
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, FlowApi
+from openremote_openapi_client import OpenRemoteApiClient, FlowApi
 from openremote_openapi_client.models.node import Node
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -158,13 +158,13 @@ Retrieve a node definition by name
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, FlowApi
+from openremote_openapi_client import OpenRemoteApiClient, FlowApi
 from openremote_openapi_client.models.node import Node
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

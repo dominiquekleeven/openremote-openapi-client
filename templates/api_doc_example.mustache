@@ -1,14 +1,14 @@
 
 ```python
-from {{{packageName}}} import AuthenticatedApiClient, {{{classname}}}
+from {{{packageName}}} import OpenRemoteApiClient, {{{classname}}}
 {{#vendorExtensions.x-py-example-import}}
 {{{.}}}
 {{/vendorExtensions.x-py-example-import}}
 from {{{packageName}}}.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

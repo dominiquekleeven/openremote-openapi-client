@@ -17,12 +17,12 @@ Clear the syslog events
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client import OpenRemoteApiClient, SyslogApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -84,13 +84,13 @@ Retrieve the syslog configuration
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client import OpenRemoteApiClient, SyslogApi
 from openremote_openapi_client.models.syslog_config import SyslogConfig
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -154,12 +154,12 @@ Retrieve the syslog events
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client import OpenRemoteApiClient, SyslogApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -235,13 +235,13 @@ Update the syslog configuration
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, SyslogApi
+from openremote_openapi_client import OpenRemoteApiClient, SyslogApi
 from openremote_openapi_client.models.syslog_config import SyslogConfig
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

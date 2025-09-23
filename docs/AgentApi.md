@@ -16,13 +16,13 @@ Do protocol asset discovery
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AgentApi
+from openremote_openapi_client import OpenRemoteApiClient, AgentApi
 from openremote_openapi_client.models.asset_tree_node import AssetTreeNode
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -90,14 +90,14 @@ Do protocol asset import
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AgentApi
+from openremote_openapi_client import OpenRemoteApiClient, AgentApi
 from openremote_openapi_client.models.asset_tree_node import AssetTreeNode
 from openremote_openapi_client.models.file_info import FileInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -167,13 +167,13 @@ Do protocol instance discovery
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, AgentApi
+from openremote_openapi_client import OpenRemoteApiClient, AgentApi
 from openremote_openapi_client.models.agent_object_object_object import AgentObjectObjectObject
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

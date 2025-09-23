@@ -19,13 +19,13 @@ Create a new realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client import OpenRemoteApiClient, RealmApi
 from openremote_openapi_client.models.realm import Realm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -89,12 +89,12 @@ Delete a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client import OpenRemoteApiClient, RealmApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -158,13 +158,13 @@ Retrieve accessible realms for the authenticated user
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client import OpenRemoteApiClient, RealmApi
 from openremote_openapi_client.models.realm import Realm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -228,13 +228,13 @@ Retrieve all realms
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client import OpenRemoteApiClient, RealmApi
 from openremote_openapi_client.models.realm import Realm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -298,13 +298,13 @@ Retrieve details about the currently authenticated and active realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client import OpenRemoteApiClient, RealmApi
 from openremote_openapi_client.models.realm import Realm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -370,13 +370,13 @@ Update a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RealmApi
+from openremote_openapi_client import OpenRemoteApiClient, RealmApi
 from openremote_openapi_client.models.realm import Realm
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

@@ -17,13 +17,13 @@ Upload a file
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client import OpenRemoteApiClient, ConfigurationApi
 from openremote_openapi_client.models.file_info import FileInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -91,13 +91,13 @@ Retrieve the manager configuration JSON
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client import OpenRemoteApiClient, ConfigurationApi
 from openremote_openapi_client.models.manager_app_config import ManagerAppConfig
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -153,12 +153,12 @@ Retrieve manager configuration images
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client import OpenRemoteApiClient, ConfigurationApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -218,13 +218,13 @@ Update manager configuration
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, ConfigurationApi
+from openremote_openapi_client import OpenRemoteApiClient, ConfigurationApi
 from openremote_openapi_client.models.manager_app_config import ManagerAppConfig
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

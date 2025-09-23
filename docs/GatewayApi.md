@@ -24,12 +24,12 @@ Delete the gateway connection of a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -93,12 +93,12 @@ Delete the gateway connections of multiple realms
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -162,13 +162,13 @@ Retrieve the gateway tunnel information of tunnel for a gateway in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -240,13 +240,13 @@ Retrieve all active gateway tunnel information of a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -312,13 +312,13 @@ Retrieve the gateway connection of a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_connection import GatewayConnection
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -384,12 +384,12 @@ Retrieve the gateway connection status of a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -455,13 +455,13 @@ Retrieve the gateway connections of all realms
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_connection import GatewayConnection
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -525,13 +525,13 @@ Retrieve the active gateway tunnel information of gateway in a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -599,13 +599,13 @@ Update the gateway connection of a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_connection import GatewayConnection
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -671,13 +671,13 @@ Start a tunnel for a gateway
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -737,13 +737,13 @@ Stop a tunnel for a gateway
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, GatewayApi
+from openremote_openapi_client import OpenRemoteApiClient, GatewayApi
 from openremote_openapi_client.models.gateway_tunnel_info import GatewayTunnelInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

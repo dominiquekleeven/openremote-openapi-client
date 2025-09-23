@@ -32,13 +32,13 @@ Create an asset ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.asset_ruleset import AssetRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -104,13 +104,13 @@ Create a global ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.global_ruleset import GlobalRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -176,13 +176,13 @@ Create a realm ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.realm_ruleset import RealmRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -248,12 +248,12 @@ Delete an asset ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -317,12 +317,12 @@ Delete a global ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -386,12 +386,12 @@ Delete a realm ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -455,13 +455,13 @@ Retrieve information about an asset rules engine
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.rules_engine_info import RulesEngineInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -527,13 +527,13 @@ Get the geofences of an asset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.geofence_definition import GeofenceDefinition
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -599,13 +599,13 @@ Retrieve an asset ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.asset_ruleset import AssetRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -671,13 +671,13 @@ Retrieve the rules of an asset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.asset_ruleset import AssetRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -747,13 +747,13 @@ Retrieve information about the global rules engine
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.rules_engine_info import RulesEngineInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -817,13 +817,13 @@ Retrieve a global ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.global_ruleset import GlobalRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -889,13 +889,13 @@ Name | Type | Description  | Notes
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.global_ruleset import GlobalRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -963,13 +963,13 @@ Retrieve information about a realm rules engine
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.rules_engine_info import RulesEngineInfo
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1035,13 +1035,13 @@ Retrieve a realm ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.realm_ruleset import RealmRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1107,13 +1107,13 @@ Retrieve the rules of a realm
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.realm_ruleset import RealmRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1183,13 +1183,13 @@ Update an asset ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.asset_ruleset import AssetRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1255,13 +1255,13 @@ Update a global ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.global_ruleset import GlobalRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",
@@ -1327,13 +1327,13 @@ Update a realm ruleset
 
 
 ```python
-from openremote_openapi_client import AuthenticatedApiClient, RuleApi
+from openremote_openapi_client import OpenRemoteApiClient, RuleApi
 from openremote_openapi_client.models.realm_ruleset import RealmRuleset
 from openremote_openapi_client.rest import ApiException
 from pprint import pprint
 
-# Create authenticated client for OpenRemote
-client = AuthenticatedApiClient(
+# Create the OpenRemote Client
+client = OpenRemoteApiClient(
     base_url="http://localhost:8080/api/master",
     keycloak_url="http://localhost:8081/auth",
     client_id="serviceuser",

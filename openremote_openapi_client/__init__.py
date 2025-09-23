@@ -41,7 +41,7 @@ __all__ = [
     "UserApi",
         "ApiResponse",
     "ApiClient",
-    "AuthenticatedApiClient",
+    "OpenRemoteApiClient",
     "Configuration",
     "OpenApiException",
     "ApiTypeError",
@@ -200,7 +200,7 @@ from openremote_openapi_client.api.user_api import UserApi as UserApi
 # import ApiClient
 from openremote_openapi_client.api_response import ApiResponse as ApiResponse
 from openremote_openapi_client.api_client import ApiClient as ApiClient
-from openremote_openapi_client.api_client import AuthenticatedApiClient as AuthenticatedApiClient
+from openremote_openapi_client.api_client import OpenRemoteApiClient as OpenRemoteApiClient
 from openremote_openapi_client.configuration import Configuration as Configuration
 from openremote_openapi_client.exceptions import OpenApiException as OpenApiException
 from openremote_openapi_client.exceptions import ApiTypeError as ApiTypeError
