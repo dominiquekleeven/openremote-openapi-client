@@ -23,13 +23,13 @@ Note, some additional changes have been made to templates of the auto-generated 
 ## Installation
 
 ```bash
-pip install openremote_openapi_client
+pip install openremote-openapi-client
 ```
 
 Or, if you’re using [uv](https://github.com/astral-sh/uv):
 
 ```bash
-uv add openremote_openapi_client
+uv add openremote-openapi-client
 ```
 
 ## Quick Start
