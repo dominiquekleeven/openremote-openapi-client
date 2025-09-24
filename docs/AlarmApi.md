@@ -1,7 +1,5 @@
 # openremote_openapi_client.AlarmApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_alarm**](AlarmApi.md#create_alarm) | **POST** /alarm | Create an alarm
@@ -18,6 +16,8 @@ Method | HTTP request | Description
 > SentAlarm create_alarm(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, asset_ids=asset_ids)
 
 Create an alarm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-alarm)
 
 ### Example
 
@@ -91,6 +91,8 @@ Name | Type | Description  | Notes
 
 Retrieve an alarm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-alarm)
+
 ### Example
 
 
@@ -162,6 +164,8 @@ Name | Type | Description  | Notes
 > List[SentAlarm] get_alarms(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm=realm, status=status, asset_id=asset_id, assignee_id=assignee_id)
 
 Retrieve all alarms or a subset using filter criteria
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-alarms)
 
 ### Example
 
@@ -241,6 +245,8 @@ Name | Type | Description  | Notes
 
 Retrieve the asset links of an alarm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-links)
+
 ### Example
 
 
@@ -315,6 +321,8 @@ Name | Type | Description  | Notes
 
 Remove an alarm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/remove-alarm)
+
 ### Example
 
 
@@ -384,6 +392,8 @@ void (empty response body)
 
 Remove alarms
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/remove-alarms)
+
 ### Example
 
 
@@ -451,6 +461,8 @@ void (empty response body)
 
 Set the asset links of an alarm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/set-asset-links)
+
 ### Example
 
 
@@ -517,6 +529,8 @@ void (empty response body)
 > update_alarm(alarm_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Update an alarm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-alarm)
 
 ### Example
 

@@ -1,7 +1,5 @@
 # openremote_openapi_client.ProvisioningApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_provisioning_config**](ProvisioningApi.md#create_provisioning_config) | **POST** /provisioning | Create a provisioning configuration
@@ -14,6 +12,8 @@ Method | HTTP request | Description
 > int create_provisioning_config(provisioning_config_object_object=provisioning_config_object_object)
 
 Create a provisioning configuration
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-provisioning-config)
 
 ### Example
 
@@ -80,6 +80,8 @@ Name | Type | Description  | Notes
 > delete_provisioning_config(id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Delete a provisioning configuration
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-provisioning-config)
 
 ### Example
 
@@ -150,6 +152,8 @@ void (empty response body)
 
 Retrieve all provisioning configurations
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-provisioning-configs)
+
 ### Example
 
 
@@ -211,6 +215,8 @@ This endpoint does not need any parameter.
 > update_provisioning_config(id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, provisioning_config_object_object=provisioning_config_object_object)
 
 Update a provisioning configuration
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-provisioning-config)
 
 ### Example
 

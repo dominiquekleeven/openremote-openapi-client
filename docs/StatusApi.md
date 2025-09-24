@@ -1,7 +1,5 @@
 # openremote_openapi_client.StatusApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_health_status**](StatusApi.md#get_health_status) | **GET** /health | Retrieve the health status of the system
@@ -12,6 +10,8 @@ Method | HTTP request | Description
 > Dict[str, object] get_health_status()
 
 Retrieve the health status of the system
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-health-status)
 
 ### Example
 
@@ -73,6 +73,8 @@ This endpoint does not need any parameter.
 > Dict[str, object] get_info()
 
 Retrieve the system information
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-info)
 
 ### Example
 

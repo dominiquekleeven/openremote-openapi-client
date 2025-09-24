@@ -1,7 +1,5 @@
 # openremote_openapi_client.RealmApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_realm**](RealmApi.md#create_realm) | **POST** /realm | Create a new realm
@@ -16,6 +14,8 @@ Method | HTTP request | Description
 > create_realm(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm=realm)
 
 Create a new realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-realm)
 
 ### Example
 
@@ -87,6 +87,8 @@ void (empty response body)
 
 Delete a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-realm)
+
 ### Example
 
 
@@ -155,6 +157,8 @@ void (empty response body)
 > List[Realm] get_accessible_realms(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve accessible realms for the authenticated user
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-accessible-realms)
 
 ### Example
 
@@ -226,6 +230,8 @@ Name | Type | Description  | Notes
 
 Retrieve all realms
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-all-realms)
+
 ### Example
 
 
@@ -295,6 +301,8 @@ Name | Type | Description  | Notes
 > Realm get_realm(name, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve details about the currently authenticated and active realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-realm)
 
 ### Example
 
@@ -367,6 +375,8 @@ Name | Type | Description  | Notes
 > update_realm(name, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm=realm)
 
 Update a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-realm)
 
 ### Example
 

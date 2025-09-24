@@ -1,7 +1,5 @@
 # openremote_openapi_client.AssetPredictedDatapointApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_predicted_datapoints**](AssetPredictedDatapointApi.md#get_predicted_datapoints) | **POST** /asset/predicted/{assetId}/{attributeName} | Retrieve the predicted datapoints of an asset attribute
@@ -12,6 +10,8 @@ Method | HTTP request | Description
 > List[ValueDatapointObject] get_predicted_datapoints(asset_id, attribute_name, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, asset_datapoint_query=asset_datapoint_query)
 
 Retrieve the predicted datapoints of an asset attribute
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-predicted-datapoints)
 
 ### Example
 
@@ -89,6 +89,8 @@ Name | Type | Description  | Notes
 > write_predicted_datapoints(asset_id, attribute_name, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, value_datapoint_object=value_datapoint_object)
 
 Write the predicted datapoints of an asset attribute
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/write-predicted-datapoints)
 
 ### Example
 

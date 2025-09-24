@@ -1,7 +1,5 @@
 # openremote_openapi_client.GatewayApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**delete_connection**](GatewayApi.md#delete_connection) | **DELETE** /gateway/connection/{realm} | Delete the gateway connection of a realm
@@ -21,6 +19,8 @@ Method | HTTP request | Description
 > delete_connection(realm, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Delete the gateway connection of a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-connection)
 
 ### Example
 
@@ -91,6 +91,8 @@ void (empty response body)
 
 Delete the gateway connections of multiple realms
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-connections)
+
 ### Example
 
 
@@ -159,6 +161,8 @@ void (empty response body)
 > GatewayTunnelInfo get_active_tunnel_info(realm, id, target, target_port, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve the gateway tunnel information of tunnel for a gateway in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-active-tunnel-info)
 
 ### Example
 
@@ -238,6 +242,8 @@ Name | Type | Description  | Notes
 
 Retrieve all active gateway tunnel information of a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-all-active-tunnel-infos)
+
 ### Example
 
 
@@ -309,6 +315,8 @@ Name | Type | Description  | Notes
 > GatewayConnection get_connection(realm, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve the gateway connection of a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-connection)
 
 ### Example
 
@@ -382,6 +390,8 @@ Name | Type | Description  | Notes
 
 Retrieve the gateway connection status of a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-connection-status)
+
 ### Example
 
 
@@ -453,6 +463,8 @@ Name | Type | Description  | Notes
 
 Retrieve the gateway connections of all realms
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-connections)
+
 ### Example
 
 
@@ -522,6 +534,8 @@ Name | Type | Description  | Notes
 > List[GatewayTunnelInfo] get_gateway_active_tunnel_infos(realm, id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve the active gateway tunnel information of gateway in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-gateway-active-tunnel-infos)
 
 ### Example
 
@@ -597,6 +611,8 @@ Name | Type | Description  | Notes
 
 Update the gateway connection of a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/set-connection)
+
 ### Example
 
 
@@ -669,6 +685,8 @@ void (empty response body)
 
 Start a tunnel for a gateway
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/start-tunnel)
+
 ### Example
 
 
@@ -734,6 +752,8 @@ Name | Type | Description  | Notes
 > stop_tunnel(gateway_tunnel_info=gateway_tunnel_info)
 
 Stop a tunnel for a gateway
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/stop-tunnel)
 
 ### Example
 

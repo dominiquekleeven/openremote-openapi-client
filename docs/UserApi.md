@@ -1,7 +1,5 @@
 # openremote_openapi_client.UserApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_user**](UserApi.md#create_user) | **POST** /user/{realm}/users | Create a new user in a realm
@@ -34,6 +32,8 @@ Method | HTTP request | Description
 > User create_user(realm, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, user=user)
 
 Create a new user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-user)
 
 ### Example
 
@@ -109,6 +109,8 @@ Name | Type | Description  | Notes
 
 Delete a user from a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-user)
+
 ### Example
 
 
@@ -180,6 +182,8 @@ void (empty response body)
 
 Disconnect a user session using a session ID
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/disconnect-user-session)
+
 ### Example
 
 
@@ -250,6 +254,8 @@ void (empty response body)
 > List[Role] get_client_roles(realm, client_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve client roles for a realm and client
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-client-roles)
 
 ### Example
 
@@ -325,6 +331,8 @@ Name | Type | Description  | Notes
 
 Retrieve the currently authenticated user
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-current-user)
+
 ### Example
 
 
@@ -394,6 +402,8 @@ Name | Type | Description  | Notes
 > List[str] get_current_user_client_roles(client_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve client roles for the currently authenticated user using a client ID
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-current-user-client-roles)
 
 ### Example
 
@@ -466,6 +476,8 @@ Name | Type | Description  | Notes
 
 Retrieve realm roles for the currently authenticated user
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-current-user-realm-roles)
+
 ### Example
 
 
@@ -534,6 +546,8 @@ Name | Type | Description  | Notes
 > User get_user(realm, user_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve a user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-user)
 
 ### Example
 
@@ -608,6 +622,8 @@ Name | Type | Description  | Notes
 > List[str] get_user_client_roles(realm, user_id, client_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve client roles for a user using a client ID in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-user-client-roles)
 
 ### Example
 
@@ -684,6 +700,8 @@ Name | Type | Description  | Notes
 
 Retrieve realm roles for a user in a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-user-realm-roles)
+
 ### Example
 
 
@@ -756,6 +774,8 @@ Name | Type | Description  | Notes
 > List[UserSession] get_user_sessions(realm, user_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve sessions for a user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-user-sessions)
 
 ### Example
 
@@ -831,6 +851,8 @@ Name | Type | Description  | Notes
 
 Query users based on criteria
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/query-users)
+
 ### Example
 
 
@@ -904,6 +926,8 @@ Name | Type | Description  | Notes
 
 Request a password reset for the currently authenticated user
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/request-password-reset)
+
 ### Example
 
 
@@ -970,6 +994,8 @@ void (empty response body)
 > request_user_password_reset(realm, user_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Request a password reset for a user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/request-user-password-reset)
 
 ### Example
 
@@ -1041,6 +1067,8 @@ void (empty response body)
 > str reset_secret(realm, user_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Reset the secret for a user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/reset-secret)
 
 ### Example
 
@@ -1114,6 +1142,8 @@ Name | Type | Description  | Notes
 > update_client_roles(realm, client_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, role=role)
 
 Update client roles for a realm and client
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-client-roles)
 
 ### Example
 
@@ -1189,6 +1219,8 @@ void (empty response body)
 
 Update locale for the current user in a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-current-user-locale)
+
 ### Example
 
 
@@ -1257,6 +1289,8 @@ void (empty response body)
 > update_own_password(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, credential=credential)
 
 Update the password for the currently authenticated user
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-own-password)
 
 ### Example
 
@@ -1327,6 +1361,8 @@ void (empty response body)
 > update_password(realm, user_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, credential=credential)
 
 Update the password for a user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-password)
 
 ### Example
 
@@ -1402,6 +1438,8 @@ void (empty response body)
 
 Update roles for a realm
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-roles)
+
 ### Example
 
 
@@ -1474,6 +1512,8 @@ void (empty response body)
 
 Update the currently authenticated user
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-self)
+
 ### Example
 
 
@@ -1545,6 +1585,8 @@ Name | Type | Description  | Notes
 > User update_user(realm, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, user=user)
 
 Update a user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-user)
 
 ### Example
 
@@ -1620,6 +1662,8 @@ Name | Type | Description  | Notes
 
 Update client roles for a user in a realm using a client ID
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-user-client-roles)
+
 ### Example
 
 
@@ -1694,6 +1738,8 @@ void (empty response body)
 > update_user_realm_roles(realm, user_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, request_body=request_body)
 
 Update realm roles for a user in a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-user-realm-roles)
 
 ### Example
 

@@ -1,7 +1,5 @@
 # openremote_openapi_client.NotificationApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_notifications**](NotificationApi.md#get_notifications) | **GET** /notification | Retrieve all sent notifications by targets
@@ -16,6 +14,8 @@ Method | HTTP request | Description
 > List[SentNotification] get_notifications(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, id=id, type=type, var_from=var_from, to=to, realm_id=realm_id, user_id=user_id, asset_id=asset_id)
 
 Retrieve all sent notifications by targets
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-notifications)
 
 ### Example
 
@@ -101,6 +101,8 @@ Name | Type | Description  | Notes
 
 Update a notification as acknowledged
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/notification-acknowledged)
+
 ### Example
 
 
@@ -174,6 +176,8 @@ void (empty response body)
 
 Update a notification as delivered
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/notification-delivered)
+
 ### Example
 
 
@@ -245,6 +249,8 @@ void (empty response body)
 
 Delete a sent notification
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/remove-notification)
+
 ### Example
 
 
@@ -313,6 +319,8 @@ void (empty response body)
 > remove_notifications(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, id=id, type=type, var_from=var_from, to=to, realm_id=realm_id, user_id=user_id, asset_id=asset_id)
 
 Delete all sent notifications by targets
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/remove-notifications)
 
 ### Example
 
@@ -394,6 +402,8 @@ void (empty response body)
 > send_notification(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, notification=notification)
 
 Send a notification to one or more targets
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/send-notification)
 
 ### Example
 

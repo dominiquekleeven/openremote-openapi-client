@@ -1,7 +1,5 @@
 # openremote_openapi_client.MapApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**delete_map**](MapApi.md#delete_map) | **DELETE** /map/deleteMap | Removes mbtiles file
@@ -17,6 +15,8 @@ Method | HTTP request | Description
 > object delete_map(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Removes mbtiles file
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-map)
 
 ### Example
 
@@ -87,6 +87,8 @@ Name | Type | Description  | Notes
 
 Retrieve if the map is custom and custom map limit
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-custom-map-info)
+
 ### Example
 
 
@@ -147,6 +149,8 @@ This endpoint does not need any parameter.
 > object get_settings(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve the style used for Mapbox GL
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-settings)
 
 ### Example
 
@@ -217,6 +221,8 @@ Name | Type | Description  | Notes
 
 Retrieve the tileJSON object used for Mapbox GL
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-settings-js)
+
 ### Example
 
 
@@ -286,6 +292,8 @@ Name | Type | Description  | Notes
 
 Retrieve the vector tile data for Mapbox GL
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-tile)
+
 ### Example
 
 
@@ -354,6 +362,8 @@ Name | Type | Description  | Notes
 > object save_settings(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, map_config=map_config)
 
 Update map settings
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/save-settings)
 
 ### Example
 
@@ -426,6 +436,8 @@ Name | Type | Description  | Notes
 > object upload_map(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, filename=filename)
 
 Saves mbtiles file
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/upload-map)
 
 ### Example
 

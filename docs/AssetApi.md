@@ -1,7 +1,5 @@
 # openremote_openapi_client.AssetApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_asset**](AssetApi.md#create_asset) | **POST** /asset | Create an asset
@@ -28,6 +26,8 @@ Method | HTTP request | Description
 > AssetObject create_asset(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, asset_object=asset_object)
 
 Create an asset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-asset)
 
 ### Example
 
@@ -101,6 +101,8 @@ Name | Type | Description  | Notes
 
 Create links between users and assets
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-user-asset-links)
+
 ### Example
 
 
@@ -170,6 +172,8 @@ void (empty response body)
 > delete_all_user_asset_links(realm, user_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Delete all user asset links
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-all-user-asset-links)
 
 ### Example
 
@@ -242,6 +246,8 @@ void (empty response body)
 
 Delete assets
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-asset)
+
 ### Example
 
 
@@ -311,6 +317,8 @@ void (empty response body)
 
 Delete the parent of assets
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-assets-parent)
+
 ### Example
 
 
@@ -379,6 +387,8 @@ void (empty response body)
 > delete_user_asset_link(realm, user_id, asset_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Delete a link between an asset and user
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-user-asset-link)
 
 ### Example
 
@@ -453,6 +463,8 @@ void (empty response body)
 
 Delete user asset links
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-user-asset-links)
+
 ### Example
 
 
@@ -522,6 +534,8 @@ void (empty response body)
 > AssetObject get_asset(asset_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve an asset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset)
 
 ### Example
 
@@ -595,6 +609,8 @@ Name | Type | Description  | Notes
 
 Retrieve the linked assets of the currently authenticated user
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-current-user-assets)
+
 ### Example
 
 
@@ -664,6 +680,8 @@ Name | Type | Description  | Notes
 > AssetObject get_partial_asset(asset_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve a partially loaded asset (no attributes or path)
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-partial-asset)
 
 ### Example
 
@@ -736,6 +754,8 @@ Name | Type | Description  | Notes
 > List[UserAssetLink] get_user_asset_links(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm=realm, user_id=user_id, asset_id=asset_id)
 
 Retrieve links between assets and users
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-user-asset-links)
 
 ### Example
 
@@ -813,6 +833,8 @@ Name | Type | Description  | Notes
 
 Retrieve assets using a query
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/query-assets)
+
 ### Example
 
 
@@ -885,6 +907,8 @@ Name | Type | Description  | Notes
 > AssetObject update_asset(asset_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, asset_object=asset_object)
 
 Update an asset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-asset)
 
 ### Example
 
@@ -960,6 +984,8 @@ Name | Type | Description  | Notes
 
 Update the parent of assets
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-asset-parent)
+
 ### Example
 
 
@@ -1030,6 +1056,8 @@ void (empty response body)
 > List[AttributeWriteResult] write_attribute_events(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, attribute_event=attribute_event)
 
 Update attribute values with timestamps
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/write-attribute-events)
 
 ### Example
 
@@ -1103,6 +1131,8 @@ Name | Type | Description  | Notes
 > AttributeWriteResult write_attribute_value(asset_id, attribute_name, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, body=body)
 
 Write to a single attribute
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/write-attribute-value)
 
 ### Example
 
@@ -1179,6 +1209,8 @@ Name | Type | Description  | Notes
 > AttributeWriteResult write_attribute_value1(asset_id, attribute_name, timestamp, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, body=body)
 
 Write to a single attribute with a timestamp
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/write-attribute-value1)
 
 ### Example
 
@@ -1257,6 +1289,8 @@ Name | Type | Description  | Notes
 > List[AttributeWriteResult] write_attribute_values(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, attribute_state=attribute_state)
 
 Update attribute values
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/write-attribute-values)
 
 ### Example
 

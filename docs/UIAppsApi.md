@@ -1,7 +1,5 @@
 # openremote_openapi_client.UIAppsApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_app_infos**](UIAppsApi.md#get_app_infos) | **GET** /apps/info | Retrieve the info of the available applications
@@ -13,6 +11,8 @@ Method | HTTP request | Description
 > get_app_infos(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve the info of the available applications
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-app-infos)
 
 ### Example
 
@@ -80,6 +80,8 @@ void (empty response body)
 > List[str] get_apps(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve a list of the available applications
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-apps)
 
 ### Example
 
@@ -149,6 +151,8 @@ Name | Type | Description  | Notes
 > get_console_config(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve the console configuration
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-console-config)
 
 ### Example
 

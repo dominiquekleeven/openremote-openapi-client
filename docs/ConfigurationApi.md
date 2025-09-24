@@ -1,7 +1,5 @@
 # openremote_openapi_client.ConfigurationApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**file_upload**](ConfigurationApi.md#file_upload) | **POST** /configuration/manager/file | Upload a file
@@ -14,6 +12,8 @@ Method | HTTP request | Description
 > str file_upload(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, path=path, file_info=file_info)
 
 Upload a file
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/file-upload)
 
 ### Example
 
@@ -89,6 +89,8 @@ Name | Type | Description  | Notes
 
 Retrieve the manager configuration JSON
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-manager-config)
+
 ### Example
 
 
@@ -150,6 +152,8 @@ This endpoint does not need any parameter.
 > object get_manager_config_image(filename)
 
 Retrieve manager configuration images
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-manager-config-image)
 
 ### Example
 
@@ -215,6 +219,8 @@ Name | Type | Description  | Notes
 > ManagerAppConfig update_configuration(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, manager_app_config=manager_app_config)
 
 Update manager configuration
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-configuration)
 
 ### Example
 

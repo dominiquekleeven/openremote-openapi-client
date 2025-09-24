@@ -1,7 +1,5 @@
 # openremote_openapi_client.AgentApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**do_protocol_asset_discovery**](AgentApi.md#do_protocol_asset_discovery) | **GET** /agent/assetDiscovery/{agentId} | Do protocol asset discovery
@@ -13,6 +11,8 @@ Method | HTTP request | Description
 > List[AssetTreeNode] do_protocol_asset_discovery(agent_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm=realm)
 
 Do protocol asset discovery
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/do-protocol-asset-discovery)
 
 ### Example
 
@@ -87,6 +87,8 @@ Name | Type | Description  | Notes
 > List[AssetTreeNode] do_protocol_asset_import(agent_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm=realm, file_info=file_info)
 
 Do protocol asset import
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/do-protocol-asset-import)
 
 ### Example
 
@@ -164,6 +166,8 @@ Name | Type | Description  | Notes
 > List[AgentObjectObjectObject] do_protocol_instance_discovery(agent_type, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, parent_id=parent_id, realm=realm)
 
 Do protocol instance discovery
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/do-protocol-instance-discovery)
 
 ### Example
 

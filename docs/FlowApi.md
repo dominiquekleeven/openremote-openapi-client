@@ -1,7 +1,5 @@
 # openremote_openapi_client.FlowApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_all_node_definitions**](FlowApi.md#get_all_node_definitions) | **GET** /flow | Retrieve all node definitions
@@ -13,6 +11,8 @@ Method | HTTP request | Description
 > List[Node] get_all_node_definitions(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve all node definitions
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-all-node-definitions)
 
 ### Example
 
@@ -83,6 +83,8 @@ Name | Type | Description  | Notes
 > List[Node] get_all_node_definitions_by_type(type, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve all node definitions by type
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-all-node-definitions-by-type)
 
 ### Example
 
@@ -155,6 +157,8 @@ Name | Type | Description  | Notes
 > Node get_node_definition(name, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve a node definition by name
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-node-definition)
 
 ### Example
 

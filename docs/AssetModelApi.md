@@ -1,7 +1,5 @@
 # openremote_openapi_client.AssetModelApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_asset_descriptors**](AssetModelApi.md#get_asset_descriptors) | **GET** /model/assetDescriptors | Retrieve the available asset descriptors
@@ -15,6 +13,8 @@ Method | HTTP request | Description
 > List[AssetDescriptorObject] get_asset_descriptors(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, parent_id=parent_id, parent_type=parent_type)
 
 Retrieve the available asset descriptors
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-descriptors)
 
 ### Example
 
@@ -90,6 +90,8 @@ Name | Type | Description  | Notes
 
 Retrieve the asset type information of an asset type
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-info)
+
 ### Example
 
 
@@ -163,6 +165,8 @@ Name | Type | Description  | Notes
 > List[AssetTypeInfo] get_asset_infos(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, parent_id=parent_id, parent_type=parent_type)
 
 Retrieve the asset type information of each available asset type
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-infos)
 
 ### Example
 
@@ -238,6 +242,8 @@ Name | Type | Description  | Notes
 
 Retrieve the available meta item descriptors
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-meta-item-descriptors)
+
 ### Example
 
 
@@ -309,6 +315,8 @@ Name | Type | Description  | Notes
 > Dict[str, ValueDescriptorObject] get_value_descriptors(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, parent_id=parent_id)
 
 Retrieve the available value descriptors
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-value-descriptors)
 
 ### Example
 

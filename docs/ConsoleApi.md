@@ -1,7 +1,5 @@
 # openremote_openapi_client.ConsoleApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**register**](ConsoleApi.md#register) | **POST** /console/register | Create or update the registration for a console
@@ -11,6 +9,8 @@ Method | HTTP request | Description
 > ConsoleRegistration register(console_registration, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Create or update the registration for a console
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/register)
 
 ### Example
 

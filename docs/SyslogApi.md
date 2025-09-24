@@ -1,7 +1,5 @@
 # openremote_openapi_client.SyslogApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**clear_events**](SyslogApi.md#clear_events) | **DELETE** /syslog/event | Clear the syslog events
@@ -14,6 +12,8 @@ Method | HTTP request | Description
 > clear_events(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Clear the syslog events
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/clear-events)
 
 ### Example
 
@@ -81,6 +81,8 @@ void (empty response body)
 > SyslogConfig get_config(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve the syslog configuration
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-config)
 
 ### Example
 
@@ -151,6 +153,8 @@ Name | Type | Description  | Notes
 > get_events(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, level=level, per_page=per_page, page=page, var_from=var_from, to=to, category=category, sub_category=sub_category)
 
 Retrieve the syslog events
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-events)
 
 ### Example
 
@@ -232,6 +236,8 @@ void (empty response body)
 > update_config(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, syslog_config=syslog_config)
 
 Update the syslog configuration
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-config)
 
 ### Example
 

@@ -1,7 +1,5 @@
 # openremote_openapi_client.RuleApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_asset_ruleset**](RuleApi.md#create_asset_ruleset) | **POST** /rules/asset | Create an asset ruleset
@@ -29,6 +27,8 @@ Method | HTTP request | Description
 > int create_asset_ruleset(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, asset_ruleset=asset_ruleset)
 
 Create an asset ruleset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-asset-ruleset)
 
 ### Example
 
@@ -102,6 +102,8 @@ Name | Type | Description  | Notes
 
 Create a global ruleset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-global-ruleset)
+
 ### Example
 
 
@@ -173,6 +175,8 @@ Name | Type | Description  | Notes
 > int create_realm_ruleset(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm_ruleset=realm_ruleset)
 
 Create a realm ruleset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-realm-ruleset)
 
 ### Example
 
@@ -246,6 +250,8 @@ Name | Type | Description  | Notes
 
 Delete an asset ruleset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-asset-ruleset)
+
 ### Example
 
 
@@ -314,6 +320,8 @@ void (empty response body)
 > delete_global_ruleset(id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Delete a global ruleset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-global-ruleset)
 
 ### Example
 
@@ -384,6 +392,8 @@ void (empty response body)
 
 Delete a realm ruleset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-realm-ruleset)
+
 ### Example
 
 
@@ -452,6 +462,8 @@ void (empty response body)
 > RulesEngineInfo get_asset_engine_info(asset_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve information about an asset rules engine
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-engine-info)
 
 ### Example
 
@@ -525,6 +537,8 @@ Name | Type | Description  | Notes
 
 Get the geofences of an asset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-geofences)
+
 ### Example
 
 
@@ -597,6 +611,8 @@ Name | Type | Description  | Notes
 
 Retrieve an asset ruleset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-ruleset)
+
 ### Example
 
 
@@ -668,6 +684,8 @@ Name | Type | Description  | Notes
 > List[AssetRuleset] get_asset_rulesets(asset_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, language=language, fully_populate=fully_populate)
 
 Retrieve the rules of an asset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-asset-rulesets)
 
 ### Example
 
@@ -745,6 +763,8 @@ Name | Type | Description  | Notes
 
 Retrieve information about the global rules engine
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-global-engine-info)
+
 ### Example
 
 
@@ -814,6 +834,8 @@ Name | Type | Description  | Notes
 > GlobalRuleset get_global_ruleset(id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve a global ruleset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-global-ruleset)
 
 ### Example
 
@@ -886,6 +908,8 @@ Name | Type | Description  | Notes
 > List[GlobalRuleset] get_global_rulesets(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, language=language, fully_populate=fully_populate)
 
  Retrieve the global rules
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-global-rulesets)
 
 ### Example
 
@@ -961,6 +985,8 @@ Name | Type | Description  | Notes
 
 Retrieve information about a realm rules engine
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-realm-engine-info)
+
 ### Example
 
 
@@ -1033,6 +1059,8 @@ Name | Type | Description  | Notes
 
 Retrieve a realm ruleset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-realm-ruleset)
+
 ### Example
 
 
@@ -1104,6 +1132,8 @@ Name | Type | Description  | Notes
 > List[RealmRuleset] get_realm_rulesets(realm, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, language=language, fully_populate=fully_populate)
 
 Retrieve the rules of a realm
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-realm-rulesets)
 
 ### Example
 
@@ -1181,6 +1211,8 @@ Name | Type | Description  | Notes
 
 Update an asset ruleset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-asset-ruleset)
+
 ### Example
 
 
@@ -1253,6 +1285,8 @@ void (empty response body)
 
 Update a global ruleset
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-global-ruleset)
+
 ### Example
 
 
@@ -1324,6 +1358,8 @@ void (empty response body)
 > update_realm_ruleset(id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, realm_ruleset=realm_ruleset)
 
 Update a realm ruleset
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-realm-ruleset)
 
 ### Example
 

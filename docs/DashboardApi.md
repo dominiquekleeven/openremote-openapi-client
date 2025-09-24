@@ -1,7 +1,5 @@
 # openremote_openapi_client.DashboardApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_dashboard**](DashboardApi.md#create_dashboard) | **POST** /dashboard | Create a dashboard
@@ -16,6 +14,8 @@ Method | HTTP request | Description
 > Dashboard create_dashboard(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, dashboard=dashboard)
 
 Create a dashboard
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/create-dashboard)
 
 ### Example
 
@@ -89,6 +89,8 @@ Name | Type | Description  | Notes
 
 Delete a dashboard
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/delete-dashboard)
+
 ### Example
 
 
@@ -159,6 +161,8 @@ void (empty response body)
 > List[Dashboard] get_all_realm_dashboards(realm, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve all accessible dashboards
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-all-realm-dashboards)
 
 ### Example
 
@@ -231,6 +235,8 @@ Name | Type | Description  | Notes
 > Dashboard get_dashboard(realm, dashboard_id, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host)
 
 Retrieve a dashboard
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-dashboard)
 
 ### Example
 
@@ -306,6 +312,8 @@ Name | Type | Description  | Notes
 
 Retrieve dashboards using a query
 
+[View official API reference →](https://docs.openremote.io/docs/rest-api/query-dashboards)
+
 ### Example
 
 
@@ -378,6 +386,8 @@ Name | Type | Description  | Notes
 > Dashboard update_dashboard(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, dashboard=dashboard)
 
 Update a dashboard
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/update-dashboard)
 
 ### Example
 

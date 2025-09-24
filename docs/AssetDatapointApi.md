@@ -1,7 +1,5 @@
 # openremote_openapi_client.AssetDatapointApi
 
-**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
-
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_datapoint_export**](AssetDatapointApi.md#get_datapoint_export) | **GET** /asset/datapoint/export | Retrieve a datapoint export of an asset attribute
@@ -13,6 +11,8 @@ Method | HTTP request | Description
 > get_datapoint_export(attribute_refs=attribute_refs, from_timestamp=from_timestamp, to_timestamp=to_timestamp)
 
 Retrieve a datapoint export of an asset attribute
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-datapoint-export)
 
 ### Example
 
@@ -80,6 +80,8 @@ void (empty response body)
 > DatapointPeriod get_datapoint_period(authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, asset_id=asset_id, attribute_name=attribute_name)
 
 Retrieve a datapoint period of an asset attribute
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-datapoint-period)
 
 ### Example
 
@@ -154,6 +156,8 @@ Name | Type | Description  | Notes
 > List[ValueDatapointObject] get_datapoints(asset_id, attribute_name, authorization=authorization, x_forwarded_proto=x_forwarded_proto, x_forwarded_host=x_forwarded_host, asset_datapoint_query=asset_datapoint_query)
 
 Retrieve the historical datapoints of an asset attribute
+
+[View official API reference →](https://docs.openremote.io/docs/rest-api/get-datapoints)
 
 ### Example
 
