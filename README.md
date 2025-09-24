@@ -331,32 +331,5 @@ Class | Method | HTTP request | Description
  - [X509ProvisioningData](docs/X509ProvisioningData.md)
 
 
-<a id="documentation-for-authorization"></a>
-## Documentation For Authorization
-
-
-Authentication schemes defined for the API:
-<a id="openid"></a>
-### openid
-
-- **Type**: OAuth
-- **Flow**: application
-- **Authorization URL**: 
-- **Scopes**: 
- - **profile**: profile
-
-<a id="openid"></a>
-### openid
-
-- **Type**: OAuth
-- **Flow**: accessCode
-- **Authorization URL**: /auth/realms/master/protocol/openid-connect/auth
-- **Scopes**: 
- - **profile**: profile
-
-
-## Author
-
-info@openremote.io
 
 
