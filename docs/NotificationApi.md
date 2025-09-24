@@ -1,5 +1,7 @@
 # openremote_openapi_client.NotificationApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_notifications**](NotificationApi.md#get_notifications) | **GET** /notification | Retrieve all sent notifications by targets

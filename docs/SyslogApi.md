@@ -1,5 +1,7 @@
 # openremote_openapi_client.SyslogApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**clear_events**](SyslogApi.md#clear_events) | **DELETE** /syslog/event | Clear the syslog events

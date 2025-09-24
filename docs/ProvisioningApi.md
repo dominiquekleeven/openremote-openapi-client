@@ -1,5 +1,7 @@
 # openremote_openapi_client.ProvisioningApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_provisioning_config**](ProvisioningApi.md#create_provisioning_config) | **POST** /provisioning | Create a provisioning configuration

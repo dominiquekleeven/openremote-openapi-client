@@ -1,5 +1,7 @@
 # openremote_openapi_client.GatewayApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**delete_connection**](GatewayApi.md#delete_connection) | **DELETE** /gateway/connection/{realm} | Delete the gateway connection of a realm

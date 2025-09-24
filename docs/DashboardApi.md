@@ -1,5 +1,7 @@
 # openremote_openapi_client.DashboardApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_dashboard**](DashboardApi.md#create_dashboard) | **POST** /dashboard | Create a dashboard

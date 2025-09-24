@@ -1,5 +1,7 @@
 # openremote_openapi_client.AssetApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_asset**](AssetApi.md#create_asset) | **POST** /asset | Create an asset

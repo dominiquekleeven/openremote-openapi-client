@@ -1,5 +1,7 @@
 # openremote_openapi_client.AssetDatapointApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_datapoint_export**](AssetDatapointApi.md#get_datapoint_export) | **GET** /asset/datapoint/export | Retrieve a datapoint export of an asset attribute

@@ -1,5 +1,7 @@
 # openremote_openapi_client.RuleApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_asset_ruleset**](RuleApi.md#create_asset_ruleset) | **POST** /rules/asset | Create an asset ruleset

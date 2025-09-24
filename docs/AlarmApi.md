@@ -1,5 +1,7 @@
 # openremote_openapi_client.AlarmApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_alarm**](AlarmApi.md#create_alarm) | **POST** /alarm | Create an alarm

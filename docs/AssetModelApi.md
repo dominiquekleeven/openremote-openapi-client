@@ -1,5 +1,7 @@
 # openremote_openapi_client.AssetModelApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_asset_descriptors**](AssetModelApi.md#get_asset_descriptors) | **GET** /model/assetDescriptors | Retrieve the available asset descriptors

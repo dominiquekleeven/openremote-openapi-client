@@ -1,5 +1,7 @@
 # openremote_openapi_client.AgentApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**do_protocol_asset_discovery**](AgentApi.md#do_protocol_asset_discovery) | **GET** /agent/assetDiscovery/{agentId} | Do protocol asset discovery

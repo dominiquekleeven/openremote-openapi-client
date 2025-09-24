@@ -1,5 +1,7 @@
 # openremote_openapi_client.UserApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_user**](UserApi.md#create_user) | **POST** /user/{realm}/users | Create a new user in a realm

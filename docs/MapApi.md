@@ -1,5 +1,7 @@
 # openremote_openapi_client.MapApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**delete_map**](MapApi.md#delete_map) | **DELETE** /map/deleteMap | Removes mbtiles file

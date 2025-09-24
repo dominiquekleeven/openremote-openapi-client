@@ -1,5 +1,7 @@
 # openremote_openapi_client.ConfigurationApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**file_upload**](ConfigurationApi.md#file_upload) | **POST** /configuration/manager/file | Upload a file

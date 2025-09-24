@@ -1,5 +1,7 @@
 # openremote_openapi_client.RealmApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**create_realm**](RealmApi.md#create_realm) | **POST** /realm | Create a new realm

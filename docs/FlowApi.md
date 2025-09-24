@@ -1,5 +1,7 @@
 # openremote_openapi_client.FlowApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_all_node_definitions**](FlowApi.md#get_all_node_definitions) | **GET** /flow | Retrieve all node definitions

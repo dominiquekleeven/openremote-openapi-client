@@ -1,5 +1,7 @@
 # openremote_openapi_client.StatusApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_health_status**](StatusApi.md#get_health_status) | **GET** /health | Retrieve the health status of the system

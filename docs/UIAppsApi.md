@@ -1,5 +1,7 @@
 # openremote_openapi_client.UIAppsApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_app_infos**](UIAppsApi.md#get_app_infos) | **GET** /apps/info | Retrieve the info of the available applications

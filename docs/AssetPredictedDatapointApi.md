@@ -1,5 +1,7 @@
 # openremote_openapi_client.AssetPredictedDatapointApi
 
+**[Official OpenRemote REST API Docs](https://docs.openremote.io/docs/category/rest-api)**
+
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**get_predicted_datapoints**](AssetPredictedDatapointApi.md#get_predicted_datapoints) | **POST** /asset/predicted/{assetId}/{attributeName} | Retrieve the predicted datapoints of an asset attribute
